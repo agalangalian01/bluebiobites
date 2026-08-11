@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<script src="../../analytics.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enseñar a una IA a leer ADN ambiental de aguas profundas — BlueBioBites</title>
+<meta name="description" content="Un modelo híbrido CNN-Transformer, combinado con detección no supervisada de taxones nuevos, propone un flujo de trabajo de eDNA para el fondo abisal.">
+<link rel="canonical" href="https://darkokamii.github.io/bluebiobites/articulo/ia-edna-abisal/">
+<meta name="theme-color" content="#0B3D57">
+<link rel="icon" href="../../assets/logo.png">
+<link rel="apple-touch-icon" href="../../assets/logo.png">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="BlueBioBites">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Enseñar a una IA a leer ADN ambiental de aguas profundas">
+<meta property="og:description" content="Un modelo híbrido CNN-Transformer, combinado con detección no supervisada de taxones nuevos, propone un flujo de trabajo de eDNA para el fondo abisal.">
+<meta property="og:url" content="https://darkokamii.github.io/bluebiobites/articulo/ia-edna-abisal/">
+<meta property="og:image" content="https://darkokamii.github.io/bluebiobites/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Enseñar a una IA a leer ADN ambiental de aguas profundas">
+<meta name="twitter:description" content="Un modelo híbrido CNN-Transformer, combinado con detección no supervisada de taxones nuevos, propone un flujo de trabajo de eDNA para el fondo abisal.">
+<meta name="twitter:image" content="https://darkokamii.github.io/bluebiobites/assets/logo.png">
+<script type="application/ld+json">
+{
+    "inLanguage":  "es",
+    "image":  "https://darkokamii.github.io/bluebiobites/assets/logo.png",
+    "description":  "Un modelo híbrido CNN-Transformer, combinado con detección no supervisada de taxones nuevos, propone un flujo de trabajo de eDNA para el fondo abisal.",
+    "@type":  "BlogPosting",
+    "headline":  "Enseñar a una IA a leer ADN ambiental de aguas profundas",
+    "author":  {
+                   "url":  "https://darkokamii.github.io/bluebiobites/#/sobre",
+                   "name":  "Alejandro Galán",
+                   "@type":  "Person"
+               },
+    "@context":  "https://schema.org",
+    "mainEntityOfPage":  {
+                             "@type":  "WebPage",
+                             "@id":  "https://darkokamii.github.io/bluebiobites/articulo/ia-edna-abisal/"
+                         },
+    "publisher":  {
+                      "name":  "BlueBioBites",
+                      "logo":  {
+                                   "@type":  "ImageObject",
+                                   "url":  "https://darkokamii.github.io/bluebiobites/assets/logo.png"
+                               },
+                      "@type":  "Organization"
+                  },
+    "datePublished":  "2026-11-18",
+    "articleSection":  "Biología marina"
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:#fff;font-family:'DM Sans',system-ui,sans-serif;color:#12293A}
+a{color:#17A398;text-decoration:none}
+a:hover{color:#F2665E}
+.bbb-skip-link{position:absolute;left:8px;top:-100px;background:#0B3D57;color:#fff;padding:12px 20px;border-radius:6px;z-index:100;transition:top .15s}
+.bbb-skip-link:focus{top:8px}
+@media(max-width:900px){.bbb-h1{font-size:32px!important}}
+</style>
+</head>
+<body>
+<a class="bbb-skip-link" href="#app">Saltar al contenido</a>
+<div id="app" tabindex="-1">
+<header style="background:#0B3D57;color:#fff">
+  <div style="max-width:1180px;margin:0 auto;padding:14px 22px;display:flex;align-items:center;gap:12px">
+    <a href="../../" style="display:flex;align-items:center;gap:12px"><img src="../../assets/logo.png" alt="BlueBioBites" width="619" height="695" style="width:40px;height:auto;display:block;filter:brightness(0) invert(1)"><span style="font-size:19px;color:#fff">bluebiobites</span></a>
+  </div>
+</header>
+<main style="max-width:1180px;margin:0 auto;padding:36px 22px 80px">
+  <a href="../../#/articulos" style="font-size:14px;color:#0B3D57;opacity:.7">&larr; Todos los artículos</a>
+  <article style="max-width:72ch;margin:26px auto 0">
+    <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap">
+      <span style="display:inline-flex;align-items:center;gap:7px;border-radius:999px;padding:5px 13px 5px 5px;font-size:12.5px;background:#E1F5EE;color:#085041"><span style="width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:12px;background:#17A398">🐟</span>Biología marina</span>
+      <span style="display:inline-flex;align-items:center;gap:7px;border-radius:999px;padding:5px 13px 5px 5px;font-size:12.5px;background:#E1F5EE;color:#085041"><span style="width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:12px;background:#17A398">🔬</span>Técnica</span>
+      <span style="font-size:13.5px;color:#12293A;opacity:.55">18 noviembre 2026 &middot; 8 min de lectura</span>
+    </div>
+    <h1 class="bbb-h1" style="margin:20px 0 0;font-size:46px;line-height:1.08;letter-spacing:-.03em;font-weight:500;color:#0B3D57">Enseñar a una IA a leer ADN ambiental de aguas profundas</h1>
+    <p style="margin:16px 0 0;font-size:14.5px;color:#12293A;opacity:.75">Por Alejandro Galán</p>
+
+    <div style="margin-top:32px;border:2px solid #17A398;border-radius:14px;padding:24px 26px;background:#E1F5EE">
+      <div style="font-size:12px;letter-spacing:.16em;margin-bottom:14px;color:#085041">en bocados</div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+<div style="display:flex;gap:12px;align-items:flex-start"><span style="flex:none;width:8px;height:8px;border-radius:50%;margin-top:8px;background:#17A398"></span><span style="font-size:16px;line-height:1.55;color:#085041">Se estima que millones de especies del fondo abisal permanecen sin describir, mal representadas en las bases de datos de referencia de eDNA.</span></div>
+<div style="display:flex;gap:12px;align-items:flex-start"><span style="flex:none;width:8px;height:8px;border-radius:50%;margin-top:8px;background:#17A398"></span><span style="font-size:16px;line-height:1.55;color:#085041">El modelo combina una red híbrida CNN-Transformer con un módulo no supervisado (UMAP + HDBSCAN) para detectar taxones potencialmente nuevos.</span></div>
+<div style="display:flex;gap:12px;align-items:flex-start"><span style="flex:none;width:8px;height:8px;border-radius:50%;margin-top:8px;background:#17A398"></span><span style="font-size:16px;line-height:1.55;color:#085041">En datos simulados, recuperó el 91,5% de los taxones nuevos con una precisión del 88,2%, procesando un millón de lecturas en 2,1 horas.</span></div>
+      </div>
+    </div>
+
+    <div style="margin-top:34px;display:flex;flex-direction:column;gap:22px">
+<p style="margin:0;font-size:18px;line-height:1.75;color:#12293A;opacity:.9">El ADN ambiental (eDNA) ha simplificado mucho el muestreo de biodiversidad: en lugar de capturar cada organismo, basta con secuenciar el ADN suelto en el agua o el sedimento. El problema en ambientes abisales es distinto y más profundo: las bases de datos de referencia con las que se compara ese ADN están construidas, sobre todo, con especies costeras y de aguas someras, así que buena parte de la fauna abisal, sin describir, no tiene con qué compararse.</p>
+<p style="margin:0;font-size:18px;line-height:1.75;color:#12293A;opacity:.9">Un equipo propone un marco de inteligencia artificial de tres módulos para lidiar con ese vacío. El primero es un modelo híbrido CNN-Transformer entrenado para aprender representaciones de secuencia taxonómicamente informativas que no dependen únicamente de coincidir con una base de datos de referencia, y que en datos simulados de expediciones abisales alcanzó un F1 macro de 0,847.</p>
+<p style="margin:0;font-size:18px;line-height:1.75;color:#12293A;opacity:.9">El segundo módulo es el más interesante conceptualmente: en vez de descartar las secuencias que no encajan con nada conocido, las envía a un flujo de trabajo no supervisado basado en UMAP y HDBSCAN que busca agruparlas como taxones potencialmente nuevos. En el escenario de evaluación simulado, este módulo recuperó el 91,5% de los taxones nuevos reales con un 88,2% de precisión, y todo el proceso —un millón de lecturas de secuenciación— se completó en 2,1 horas usando cuatro GPU.</p>
+<p style="margin:0;font-size:18px;line-height:1.75;color:#12293A;opacity:.9">Los propios autores insisten en que se trata de resultados de prueba de concepto sobre datos simulados, pendientes de validación con secuenciación real de expediciones abisales. Pero el enfoque señala una dirección de trabajo con sentido: en un ambiente donde la mayoría de lo que hay todavía no tiene nombre, un sistema pensado para señalar activamente &quot;esto no encaja con nada conocido&quot; puede ser más útil que uno optimizado solo para clasificar lo ya descrito.</p>
+    </div>
+
+    <div style="margin-top:38px;border:1px solid #e2ddd2;border-left:4px solid #0B3D57;border-radius:10px;padding:20px 24px;background:#F7F1E3">
+      <div style="font-size:12px;letter-spacing:.16em;color:#17A398;margin-bottom:10px">referencia</div>
+<p style="margin:0;font-size:15px;line-height:1.65;color:#12293A;opacity:.85">Gowda, D. R., et al. (2026). An AI-driven deep learning pipeline for taxonomic classification and biodiversity assessment of deep-sea environmental DNA. Computers in Biology and Medicine. https://consensus.app/papers/details/71e74144917d542799eec9d743482f61</p>
+    </div>
+  </article>
+</main>
+<footer style="background:#08293f;color:#fff">
+  <div style="max-width:1180px;margin:0 auto;padding:32px 22px;display:flex;flex-direction:column;gap:9px;font-size:14.5px">
+    <a href="../../#/inicio" style="color:#fff;opacity:.8">Inicio</a>
+    <a href="../../#/sobre" style="color:#fff;opacity:.8">Sobre mí</a>
+    <a href="../../#/articulos" style="color:#fff;opacity:.8">Artículos</a>
+    <a href="../../#/agenda" style="color:#fff;opacity:.8">Agenda</a>
+    <div style="margin-top:20px;padding-top:16px;border-top:1px solid rgba(255,255,255,.15);font-size:13px;opacity:.6">&copy; 2026 BlueBioBites &middot; <a href="../../privacidad.html" style="color:#fff;opacity:.85">Política de privacidad</a></div>
+  </div>
+</footer>
+</div>
+<iframe name="bbb-subscribe-frame" id="bbb-subscribe-frame" title="" aria-hidden="true" tabindex="-1" style="position:absolute;width:0;height:0;border:0;opacity:0;pointer-events:none"></iframe>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="../../app.js"></script>
+</body>
+</html>
