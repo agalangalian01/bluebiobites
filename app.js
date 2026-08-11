@@ -450,7 +450,8 @@
     </div>
   </div>
 
-  <div class="bbb-pad" style="max-width:1180px;margin:0 auto;padding-top:54px;padding-bottom:60px">
+<div class="bbb-pad" style="max-width:1180px;margin:0 auto;padding-bottom:60px"><div style="display:flex;align-items:center;gap:28px;flex-wrap:wrap;border-radius:14px;overflow:hidden;background:linear-gradient(135deg,#0B3D57,#17A398);padding:32px 36px;color:#fff"><div style="flex:1;min-width:240px"><div style="font-size:12px;letter-spacing:.14em;opacity:.85;margin-bottom:8px">SÍGUENOS</div><h3 style="margin:0 0 6px;font-size:22px;font-weight:500">📸 @bluebiobites en Instagram</h3><p style="margin:0;font-size:15px;line-height:1.5;opacity:.85;max-width:52ch">Curiosidades marinas en formato visual, carretes y contenido extra que no llega al blog.</p></div><a href="https://www.instagram.com/bluebiobites" target="_blank" rel="noopener" style="background:#fff;color:#0B3D57;padding:13px 28px;border-radius:6px;font-size:15px;font-weight:500;text-decoration:none;white-space:nowrap">Ver perfil</a></div></div>
+<div class="bbb-pad" style="max-width:1180px;margin:0 auto;padding-top:54px;padding-bottom:60px">
     <div class="bbb-row" style="display:flex;border-radius:14px;overflow:hidden;border:1px solid #0B3D57">
       <div style="flex:none;width:140px;background:#0B3D57;color:#fff;display:grid;place-content:center;text-align:center;padding:26px 0">
         <div style="font-size:44px;line-height:1">${esc(nextEvent.day)}</div><div style="font-size:13px;letter-spacing:.16em;opacity:.8">${esc(nextEvent.month)} ${esc(nextEvent.year)}</div>
