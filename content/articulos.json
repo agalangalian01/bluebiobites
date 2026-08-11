@@ -1,187 +1,26 @@
 {
   "articulos": [
     {
-      "slug": "vibrio-tcbs",
-      "cat": "micro",
-      "type": "tecnica",
-      "date": "14 julio 2026",
-      "read": "7 min",
-      "title": "Vibrio en la costa de Alicante: qué aparece en una placa de TCBS",
-      "excerpt": "Cultivo selectivo, confirmación por PCR y por qué el color de la colonia cambia toda la lectura de una muestra costera.",
-      "bites": [
-        "El medio TCBS separa los Vibrio del resto de la microbiota costera por su tolerancia a la sal y al pH alcalino.",
-        "El color de la colonia (amarillo o verde) da una primera pista de especie, pero no es un diagnóstico: hace falta confirmación molecular.",
-        "Con temperaturas del agua más altas en verano, la ventana en la que estos géneros son detectables se alarga."
-      ],
-      "body": [
-        "Cuando uno siembra agua de mar en una placa de TCBS, lo primero que sorprende es lo poco que crece. El medio está diseñado para eso: pH alcalino, sales biliares y alta concentración de cloruro sódico dejan fuera a la mayor parte de la microbiota costera y dejan pasar, sobre todo, al género Vibrio.",
-        "Lo que sí crece se separa por color. Las colonias amarillas fermentan la sacarosa del medio y acidifican el indicador; las verdes no. Es una primera criba útil en el laboratorio, pero conviene decirlo claro: el color no identifica una especie. Distintos aislados pueden compartir apariencia y comportarse de forma muy distinta.",
-        "Por eso el segundo paso no es opcional. Sobre las colonias aisladas se hace extracción de ADN y una PCR dirigida a genes marcadores, y solo entonces se puede hablar de una identificación con cierta seguridad. En muestras de la costa alicantina, ese doble paso es lo que separa \"aquí hay algo compatible con Vibrio\" de \"aquí hay esta especie concreta\".",
-        "La parte interesante no es el microorganismo aislado, sino el contexto. La abundancia de estos géneros responde a la temperatura del agua, a la salinidad y a la materia orgánica disponible; en veranos largos y cálidos, la ventana temporal en la que se detectan con facilidad se alarga. Eso importa para la acuicultura y para la vigilancia sanitaria costera, que es donde acaba aterrizando este tipo de muestreo."
-      ],
-      "ref": [
-        "Baker-Austin, C., Oliver, J. D., Alam, M., Ali, A., Waldor, M. K., Qadri, F., & Martinez-Urtaza, J. (2018). Vibrio spp. infections. Nature Reviews Disease Primers, 4(1), 8. https://doi.org/10.1038/s41572-018-0005-8"
-      ]
-    },
-    {
-      "slug": "pacbio-16s",
-      "cat": "gen",
-      "type": "tecnica",
-      "date": "2 julio 2026",
-      "read": "9 min",
-      "title": "Leer el 16S de un tirón: qué cambia con PacBio",
-      "excerpt": "Del fragmento corto al gen completo, y por qué eso sube la resolución taxonómica hasta el nivel de especie.",
-      "bites": [
-        "La mayoría de estudios de microbiota amplifican solo una o dos regiones variables del gen 16S; PacBio permite leer el gen entero en una sola lectura.",
-        "Más longitud significa mejor resolución taxonómica: donde antes se llegaba a género, ahora se puede afinar a especie.",
-        "No es magia: los sesgos de extracción, de PCR y de base de datos siguen ahí."
-      ],
-      "body": [
-        "El gen 16S del ARN ribosómico lleva décadas siendo la regla de medir de la ecología microbiana. Tiene regiones muy conservadas, útiles para diseñar cebadores universales, y regiones variables que cambian entre grupos y sirven para clasificar.",
-        "El problema clásico es de longitud. Las plataformas de lectura corta obligan a elegir un trozo, normalmente V3-V4, y a partir de ahí clasificar. Funciona razonablemente bien hasta género, pero por debajo la señal se agota: dos especies distintas pueden ser idénticas en la región elegida.",
-        "La secuenciación de lectura larga cambia esa ecuación. Al leer el gen completo de una sola vez, y con lecturas circulares de alta fidelidad, la clasificación gana resolución y muchas asignaciones que antes se quedaban en \"género sp.\" pasan a tener nombre y apellido.",
-        "Conviene no sobrevender el salto. Sigue habiendo sesgos en la extracción de ADN, en la amplificación y en las bases de datos de referencia, que están mejor pobladas para unos ambientes que para otros. Lo que cambia es la resolución del último paso, no la fiabilidad de toda la cadena."
-      ],
-      "ref": [
-        "Callahan, B. J., Wong, J., Heiner, C., Oh, S., Theriot, C. M., Gulati, A. S., McGill, S. K., & Dougherty, M. K. (2019). High-throughput amplicon sequencing of the full-length 16S rRNA gene with single-nucleotide resolution. Nucleic Acids Research, 47(18), e103. https://doi.org/10.1093/nar/gkz569"
-      ]
-    },
-    {
-      "slug": "hediste-pienso",
-      "cat": "acui",
-      "type": "noticia",
-      "date": "21 junio 2026",
-      "read": "6 min",
-      "title": "Un poliqueto en el pienso: el caso de Hediste diversicolor",
-      "excerpt": "Dieta, agua tratada con luz ultravioleta y una microbiota que responde a las dos cosas.",
-      "bites": [
-        "Hediste diversicolor se cultiva como fuente de proteína y ácidos grasos para piensos acuícolas.",
-        "La dieta y el tratamiento UV del agua de cultivo modifican la microbiota del gusano de forma medible.",
-        "Controlar esa microbiota es parte del control de calidad del ingrediente, no un detalle secundario."
-      ],
-      "body": [
-        "La acuicultura lleva años buscando cómo salir de la harina de pescado. Entre los candidatos, los poliquetos tienen una ventaja incómoda de ignorar: crecen rápido, aprovechan residuos orgánicos y tienen un perfil de ácidos grasos que interesa a las dietas de reproductores.",
-        "Hediste diversicolor es el ejemplo más trabajado en Europa. Vive en sedimentos intermareales, tolera cambios fuertes de salinidad y se puede cultivar en sistemas relativamente sencillos. La pregunta operativa no es si crece, sino qué se lleva dentro cuando entra en la cadena del pienso.",
-        "Ahí entra la microbiota. Lo que el gusano come y cómo se trata el agua de cultivo se reflejan en la comunidad bacteriana que alberga. Un tratamiento con luz ultravioleta reduce la carga microbiana del agua de entrada, y esa presión se nota aguas abajo, en el propio animal.",
-        "La conclusión práctica es poco espectacular pero útil: si el poliqueto se va a usar como ingrediente, su microbiota forma parte de la especificación del producto. Medirla con secuenciación es hoy más barato que asumir que da igual."
-      ],
-      "ref": [
-        "Wang, H., Hagemann, A., Reitan, K. I., Ejlertsson, J., Wollan, H., Handå, A., & Malzahn, A. M. (2019). Potential of the polychaete Hediste diversicolor fed on aquaculture and biogas side streams as an aquaculture food source. Aquaculture Environment Interactions, 11, 551-562. https://doi.org/10.3354/aei00330"
-      ]
-    },
-    {
-      "slug": "bomba-carbono",
-      "cat": "ocea",
-      "type": "noticia",
-      "date": "9 junio 2026",
-      "read": "8 min",
-      "title": "La bomba biológica de carbono, en tres pasos",
-      "excerpt": "Cómo el carbono que fija el plancton en superficie acaba, con suerte, en el fondo del océano durante siglos.",
-      "bites": [
-        "El fitoplancton fija CO2 en superficie; una fracción pequeña de ese carbono escapa del reciclado y se hunde.",
-        "La profundidad a la que se remineraliza determina cuánto tiempo queda el carbono fuera de la atmósfera.",
-        "Es uno de los procesos peor restringidos en los modelos climáticos actuales."
-      ],
-      "body": [
-        "La llamada bomba biológica es, en esencia, un ascensor de bajada. El fitoplancton fija carbono en la capa iluminada, parte de esa materia orgánica se agrega en partículas o pasa por el intestino del zooplancton, y esas partículas se hunden.",
-        "La mayor parte del carbono no llega lejos: bacterias y zooplancton lo remineralizan en los primeros cientos de metros y vuelve a estar disponible en superficie en cuestión de meses o pocos años. El destino climático se juega en la profundidad exacta a la que ocurre esa remineralización.",
-        "Si el carbono se descompone por encima de la termoclina permanente, vuelve pronto. Si atraviesa esa barrera, puede quedar aislado de la atmósfera durante siglos. Unas decenas de metros de diferencia cambian el orden de magnitud del tiempo de residencia.",
-        "Por eso es un proceso incómodo para los modelos: pequeño en porcentaje, enorme en efecto acumulado, y difícil de medir directamente. Las campañas con trampas de sedimento y flotadores autónomos han mejorado mucho las estimaciones, pero el margen de incertidumbre sigue siendo amplio."
-      ],
-      "ref": [
-        "Boyd, P. W., Claustre, H., Levy, M., Siegel, D. A., & Weber, T. (2019). Multi-faceted particle pumps drive carbon sequestration in the ocean. Nature, 568(7752), 327-335. https://doi.org/10.1038/s41586-019-1098-2"
-      ]
-    },
-    {
-      "slug": "quitosano-hongos",
-      "cat": "biot",
-      "type": "tecnica",
-      "date": "28 mayo 2026",
-      "read": "7 min",
-      "title": "Quitosano y hongos de control biológico: hablar en volátiles",
-      "excerpt": "Un polisacárido del caparazón de los crustáceos que modifica lo que dos hongos usados frente a plagas emiten al aire.",
-      "bites": [
-        "El quitosano se obtiene de la quitina del caparazón de crustáceos, un residuo abundante del sector pesquero.",
-        "Añadirlo al medio altera el perfil de compuestos volátiles que emiten Pochonia chlamydosporia y Purpureocillium lilacinum.",
-        "Esos volátiles no son un subproducto: participan en la interacción del hongo con plantas y plagas."
-      ],
-      "body": [
-        "La quitina es el segundo biopolímero más abundante del planeta y, en buena parte, acaba en el contenedor: caparazones de gamba, cangrejo y langostino. El quitosano es su derivado desacetilado, soluble y biológicamente activo, y ese origen residual es parte de su atractivo.",
-        "Pochonia chlamydosporia y Purpureocillium lilacinum se usan como agentes de control biológico frente a nematodos fitoparásitos. Son hongos que colonizan la rizosfera y que, además de parasitar huevos, se comunican químicamente con su entorno.",
-        "Cuando se añade quitosano al medio de cultivo, el perfil de compuestos orgánicos volátiles que emiten estos hongos cambia. Aparecen y desaparecen compuestos, y varían las proporciones, lo que sugiere una respuesta metabólica al polisacárido y no un simple efecto de dosis.",
-        "La relevancia está en el uso agrícola: si el quitosano modula lo que el hongo emite, también puede modular su eficacia en campo. Es un ejemplo bastante limpio de biotecnología marina aplicada fuera del mar, con un residuo pesquero como punto de partida."
-      ],
-      "ref": [
-        "Escudero, N., Lopez-Moya, F., Ghahremani, Z., Zavala-Gonzalez, E. A., Alaguero-Cordovilla, A., Ros-Ibañez, C., Lacasa, A., Sorribas, F. J., & Lopez-Llorca, L. V. (2017). Chitosan increases tomato root colonization by Pochonia chlamydosporia and their combination reduces root-knot nematode damage. Frontiers in Plant Science, 8, 1415. https://doi.org/10.3389/fpls.2017.01415"
-      ]
-    },
-    {
-      "slug": "microplasticos-seychelles",
-      "cat": "eco",
-      "type": "noticia",
-      "date": "15 mayo 2026",
-      "read": "10 min",
-      "title": "Microplásticos en islas remotas: lo que cuenta el Raman",
-      "excerpt": "Muestras ambientales de las Seychelles analizadas con espectroscopía Raman: qué polímeros aparecen lejos de cualquier ciudad.",
-      "bites": [
-        "La espectroscopía Raman identifica el polímero de partículas muy pequeñas, donde la inspección visual ya no sirve.",
-        "Las islas remotas acumulan plástico que no han generado: llega por corrientes y por la pesca.",
-        "Lo que se cuenta depende del tamaño mínimo que el método puede detectar; sin ese dato, las cifras no son comparables."
-      ],
-      "body": [
-        "Contar microplásticos parece sencillo hasta que se hace. Bajo la lupa, muchas partículas sospechosas resultan ser fibras naturales o restos minerales, y muchas partículas reales pasan desapercibidas por tamaño o color.",
-        "La espectroscopía Raman resuelve buena parte de ese problema: mide cómo dispersa la luz una partícula y devuelve una huella espectral que se compara con una biblioteca de polímeros. Con ella se puede decir si aquello es polietileno, polipropileno o poliéster, y no solo \"plástico\".",
-        "Aplicado a muestras de las Seychelles, el ejercicio tiene un componente casi incómodo: son islas con poca población y una industria mínima, y aun así aparecen polímeros de uso masivo y restos asociados a artes de pesca. Lo que llega, llega por mar.",
-        "La lección metodológica es tan importante como la ambiental. Las cifras de abundancia solo son comparables si se declara el tamaño mínimo detectable, el método de separación y el criterio de identificación. Sin eso, dos estudios del mismo lugar pueden diferir en un orden de magnitud sin que ninguno esté equivocado."
-      ],
-      "ref": [
-        "Araujo, C. F., Nolasco, M. M., Ribeiro, A. M. P., & Ribeiro-Claro, P. J. A. (2018). Identification of microplastics using Raman spectroscopy: Latest developments and future prospects. Water Research, 142, 426-440. https://doi.org/10.1016/j.watres.2018.05.060"
-      ]
-    },
-    {
-      "slug": "ficobiliproteinas",
-      "cat": "quim",
-      "type": "tecnica",
-      "date": "30 abril 2026",
-      "read": "6 min",
-      "title": "Ficobiliproteínas: el color que las algas le venden a la industria",
-      "excerpt": "Pigmentos fluorescentes de cianobacterias y algas rojas que acabaron como colorante alimentario y como reactivo de laboratorio.",
-      "bites": [
-        "Las ficobiliproteínas captan luz en longitudes de onda que la clorofila aprovecha mal.",
-        "Su fluorescencia intensa las convirtió en marcadores estándar en citometría de flujo.",
-        "El cuello de botella industrial no es producirlas, es estabilizarlas."
-      ],
-      "body": [
-        "En el agua, la luz roja se extingue en los primeros metros y lo que queda abajo es azul y verde. Las cianobacterias y las algas rojas resolvieron ese problema con ficobiliproteínas: complejos proteína-pigmento que absorben justo donde la clorofila es ineficaz y transfieren esa energía al centro de reacción.",
-        "La ficocianina es azul; la ficoeritrina, rosa. Ambas son intensamente fluorescentes, y eso les abrió una segunda vida fuera de la fotosíntesis: como marcadores en citometría de flujo y en inmunoensayos, donde su brillo supera al de muchos fluoróforos sintéticos.",
-        "En paralelo, la ficocianina se ha ganado un hueco como colorante alimentario natural, sobre todo en productos que buscan evitar los azules sintéticos. La producción a partir de Arthrospira a escala industrial ya está resuelta.",
-        "El problema real es la estabilidad. Son proteínas: el calor, la luz y el pH ácido las degradan y el color se va. Buena parte de la investigación aplicada actual no busca producir más, sino encapsularlas y formularlas para que aguanten el proceso y la vida útil del producto."
-      ],
-      "ref": [
-        "Pagels, F., Guedes, A. C., Amaro, H. M., Kijjoa, A., & Vasconcelos, V. (2019). Phycobiliproteins from cyanobacteria: Chemistry and biotechnological applications. Biotechnology Advances, 37(3), 422-443. https://doi.org/10.1016/j.biotechadv.2019.02.010"
-      ]
-    },
-    {
-      "slug": "tiburon-peregrino",
+      "slug": " \"anfipodos-clarion-clipperton\"",
       "cat": "bio",
       "type": "noticia",
-      "date": "18 abril 2026",
-      "read": "8 min",
-      "title": "El tiburón peregrino en el Mediterráneo: avistamientos y datos",
-      "excerpt": "El segundo pez más grande del mundo se alimenta de plancton y aparece cada primavera frente a la costa. Qué sabemos y qué no.",
+      "date": "\"14 agosto 2026\"",
+      "read": "7 min",
+      "title": "\"24 especies nuevas en la Clarion-Clipperton: catalogar el fondo antes de removerlo\"",
+      "excerpt": "\"Un taller de taxonomía describe 24 anfípodos nuevos en la zona con más nódulos polimetálicos del planeta, justo cuando más se habla de extraerlos.\"",
       "bites": [
-        "Cetorhinus maximus puede superar los 8 metros y se alimenta filtrando zooplancton.",
-        "Los avistamientos costeros se concentran en primavera, cuando florece su alimento.",
-        "La ciencia ciudadana ha multiplicado los registros, pero un avistamiento no equivale a un individuo."
+        "\"La Zona Clarion-Clipperton, en el Pacífico central, concentra el mayor interés minero por sus nódulos polimetálicos.\"",
+        "\"Un taller taxonómico organizado por la Autoridad Internacional de los Fondos Marinos ha descrito 24 especies nuevas de anfípodos de la zona.\"",
+        "\"El objetivo declarado del programa es documentar 1.000 especies nuevas antes de que termine la década.\""
       ],
       "body": [
-        "Cada primavera reaparece la misma noticia con la misma foto borrosa: una aleta grande cerca de la costa. Casi siempre es Cetorhinus maximus, el tiburón peregrino, un animal que puede pasar de los ocho metros y que se alimenta exclusivamente de plancton.",
-        "Su biología explica el calendario. Filtra grandes volúmenes de agua para capturar zooplancton, así que sigue las concentraciones de alimento; cuando el plancton florece cerca de la costa, el tiburón se acerca a la costa. No hay nada más detrás del titular.",
-        "Los datos mediterráneos son escasos comparados con los del Atlántico nororiental. Las series históricas provienen en buena parte de capturas accidentales, y los registros recientes dependen mucho de avistamientos oportunistas y de redes de ciencia ciudadana.",
-        "Ese es también su límite. Un avistamiento no es un individuo: sin marcaje o identificación fotográfica no se puede saber si son diez animales o el mismo diez veces. Para una especie catalogada como amenazada, esa diferencia no es menor a la hora de estimar tendencias."
+        "\"Hay una paradoja incómoda en la minería submarina: se planea extraer de zonas que apenas se han catalogado. La Clarion-Clipperton, una franja abisal del Pacífico central sembrada de nódulos de manganeso, es el ejemplo de manual. Ahí se concentran las principales solicitudes de exploración minera del mundo, y ahí vive una fauna que en su mayoría todavía no tiene nombre científico.\"",
+        "\"Para cerrar parte de ese hueco, la Autoridad Internacional de los Fondos Marinos organizó un taller de taxonomía centrado en un solo grupo, los anfípodos, esos pequeños crustáceos que en el bentos abisal cumplen el papel que en otros ecosistemas cumplen los insectos: omnipresentes, diversos y mal estudiados. El resultado son 24 especies nuevas descritas formalmente a partir de ese trabajo.\"",
+        "\"Describir una especie abisal no es un trámite rápido: exige comparar morfología con el material tipo disponible en colecciones de todo el mundo, a veces con ejemplares recolectados hace décadas, y documentar caracteres diagnósticos que sobrevivan a la conservación en alcohol. El proyecto que engloba este trabajo, bautizado como \\\"One Thousand Reasons\\\", se ha puesto como meta llegar a mil especies nuevas descritas antes de que acabe la década.\"",
+        "\"El trasfondo no es solo curiosidad taxonómica. Cualquier evaluación de impacto ambiental de una futura explotación minera necesita una línea base de biodiversidad, y esa línea base no existe si las especies ni siquiera están descritas. Cada nombre nuevo en la lista es, en la práctica, un argumento más concreto sobre lo que hay que decidir si se remueve.\""
       ],
       "ref": [
-        "Sims, D. W. (2008). Sieving a living: A review of the biology, ecology and conservation status of the plankton-feeding basking shark Cetorhinus maximus. Advances in Marine Biology, 54, 171-220. https://doi.org/10.1016/S0065-2881(08)00003-5"
+        "\"Jażdżewska, A. M., & Horton, T. (2026). New deep-sea Amphipoda from the Clarion-Clipperton Zone: 24 new species described under the Sustainable Seabed Knowledge Initiative: One Thousand Reasons campaign. ZooKeys. https://consensus.app/papers/details/6f8b5cf4b6b257429283ff0554aa17d9\""
       ]
     }
   ]
