@@ -1,27 +1,556 @@
 {
   "articulos": [
     {
-      "slug": " \"anfipodos-clarion-clipperton\"",
+      "slug": "anfipodos-clarion-clipperton",
       "cat": "bio",
       "type": "noticia",
-      "date": "\"14 agosto 2026\"",
+      "date": "14 agosto 2026",
       "read": "7 min",
-      "title": "\"24 especies nuevas en la Clarion-Clipperton: catalogar el fondo antes de removerlo\"",
-      "excerpt": "\"Un taller de taxonomía describe 24 anfípodos nuevos en la zona con más nódulos polimetálicos del planeta, justo cuando más se habla de extraerlos.\"",
+      "title": "24 especies nuevas en la Clarion-Clipperton: catalogar el fondo antes de removerlo",
+      "excerpt": "Un taller de taxonomía describe 24 anfípodos nuevos en la zona con más nódulos polimetálicos del planeta, justo cuando más se habla de extraerlos.",
       "bites": [
-        "\"La Zona Clarion-Clipperton, en el Pacífico central, concentra el mayor interés minero por sus nódulos polimetálicos.\"",
-        "\"Un taller taxonómico organizado por la Autoridad Internacional de los Fondos Marinos ha descrito 24 especies nuevas de anfípodos de la zona.\"",
-        "\"El objetivo declarado del programa es documentar 1.000 especies nuevas antes de que termine la década.\""
+        "La Zona Clarion-Clipperton, en el Pacífico central, concentra el mayor interés minero por sus nódulos polimetálicos.",
+        "Un taller taxonómico organizado por la Autoridad Internacional de los Fondos Marinos ha descrito 24 especies nuevas de anfípodos de la zona.",
+        "El objetivo declarado del programa es documentar 1.000 especies nuevas antes de que termine la década."
       ],
       "body": [
-        "\"Hay una paradoja incómoda en la minería submarina: se planea extraer de zonas que apenas se han catalogado. La Clarion-Clipperton, una franja abisal del Pacífico central sembrada de nódulos de manganeso, es el ejemplo de manual. Ahí se concentran las principales solicitudes de exploración minera del mundo, y ahí vive una fauna que en su mayoría todavía no tiene nombre científico.\"",
-        "\"Para cerrar parte de ese hueco, la Autoridad Internacional de los Fondos Marinos organizó un taller de taxonomía centrado en un solo grupo, los anfípodos, esos pequeños crustáceos que en el bentos abisal cumplen el papel que en otros ecosistemas cumplen los insectos: omnipresentes, diversos y mal estudiados. El resultado son 24 especies nuevas descritas formalmente a partir de ese trabajo.\"",
-        "\"Describir una especie abisal no es un trámite rápido: exige comparar morfología con el material tipo disponible en colecciones de todo el mundo, a veces con ejemplares recolectados hace décadas, y documentar caracteres diagnósticos que sobrevivan a la conservación en alcohol. El proyecto que engloba este trabajo, bautizado como \\\"One Thousand Reasons\\\", se ha puesto como meta llegar a mil especies nuevas descritas antes de que acabe la década.\"",
-        "\"El trasfondo no es solo curiosidad taxonómica. Cualquier evaluación de impacto ambiental de una futura explotación minera necesita una línea base de biodiversidad, y esa línea base no existe si las especies ni siquiera están descritas. Cada nombre nuevo en la lista es, en la práctica, un argumento más concreto sobre lo que hay que decidir si se remueve.\""
+        "Hay una paradoja incómoda en la minería submarina: se planea extraer de zonas que apenas se han catalogado. La Clarion-Clipperton, una franja abisal del Pacífico central sembrada de nódulos de manganeso, es el ejemplo de manual. Ahí se concentran las principales solicitudes de exploración minera del mundo, y ahí vive una fauna que en su mayoría todavía no tiene nombre científico.",
+        "Para cerrar parte de ese hueco, la Autoridad Internacional de los Fondos Marinos organizó un taller de taxonomía centrado en un solo grupo, los anfípodos, esos pequeños crustáceos que en el bentos abisal cumplen el papel que en otros ecosistemas cumplen los insectos: omnipresentes, diversos y mal estudiados. El resultado son 24 especies nuevas descritas formalmente a partir de ese trabajo.",
+        "Describir una especie abisal no es un trámite rápido: exige comparar morfología con el material tipo disponible en colecciones de todo el mundo, a veces con ejemplares recolectados hace décadas, y documentar caracteres diagnósticos que sobrevivan a la conservación en alcohol. El proyecto que engloba este trabajo, bautizado como \"One Thousand Reasons\", se ha puesto como meta llegar a mil especies nuevas descritas antes de que acabe la década.",
+        "El trasfondo no es solo curiosidad taxonómica. Cualquier evaluación de impacto ambiental de una futura explotación minera necesita una línea base de biodiversidad, y esa línea base no existe si las especies ni siquiera están descritas. Cada nombre nuevo en la lista es, en la práctica, un argumento más concreto sobre lo que hay que decidir si se remueve."
       ],
       "ref": [
-        "\"Jażdżewska, A. M., & Horton, T. (2026). New deep-sea Amphipoda from the Clarion-Clipperton Zone: 24 new species described under the Sustainable Seabed Knowledge Initiative: One Thousand Reasons campaign. ZooKeys. https://consensus.app/papers/details/6f8b5cf4b6b257429283ff0554aa17d9\""
+        "Jażdżewska, A. M., & Horton, T. (2026). New deep-sea Amphipoda from the Clarion-Clipperton Zone: 24 new species described under the Sustainable Seabed Knowledge Initiative: One Thousand Reasons campaign. ZooKeys. https://consensus.app/papers/details/6f8b5cf4b6b257429283ff0554aa17d9"
       ]
-    }
+    },
+    {
+      "slug": "arrecifes-mar-china-meridional",
+      "cat": "eco",
+      "type": "noticia",
+      "date": "20 agosto 2026",
+      "read": "7 min",
+      "title": "En el Mar de China Meridional, el culpable no es (solo) el calor",
+      "excerpt": "Dos décadas de datos en 102 arrecifes reparten la culpa del declive coralino: sobrepesca y nutrientes pesan más que el estrés térmico.",
+      "bites": [
+        "El estudio combina veinte años de datos de campo en 102 sitios de 22 arrecifes del norte del Mar de China Meridional.",
+        "La sobrepesca y la contaminación por nutrientes explican el 73% de la varianza en cobertura coralina viva.",
+        "El estrés térmico asociado al cambio climático pesa menos que esos dos factores locales en esta región concreta."
+      ],
+      "body": [
+        "El relato dominante sobre la muerte de los arrecifes de coral tiene un protagonista claro: el agua caliente. Pero cuando se desagregan los datos región por región, esa historia se complica, y a veces el calentamiento global comparte protagonismo con problemas mucho más locales y, en teoría, más fáciles de gestionar.",
+        "Un equipo que ha seguido 102 puntos de muestreo en 22 arrecifes del norte del Mar de China Meridional durante dos décadas aplicó modelos de regresión de panel y ecuaciones estructurales para repartir la responsabilidad del declive entre distintas variables. El resultado: la sobrepesca, la contaminación por nutrientes agrícolas y urbanos, y los brotes de la estrella corona de espinas explican conjuntamente el 73% de la varianza en cobertura coralina viva, más que el estrés térmico.",
+        "Esto no significa que el calentamiento no importe, sino que en esta región concreta el margen de maniobra real está en la gestión costera: pesca sostenible, control de vertidos y manejo de las poblaciones de depredadores de coral. El equipo propone un marco de gestión integrada costa-arrecife y estima, mediante simulaciones espaciales, que esa combinación de medidas podría multiplicar por dos o cuatro la cobertura coralina viva incluso bajo escenarios de calentamiento global.",
+        "La lección de fondo es metodológica tanto como práctica: tratar el cambio climático como la única variable relevante puede llevar a ignorar palancas de gestión que sí están al alcance de una administración local. Donde el clima es un problema global sin solución rápida, la sobrepesca y los nutrientes son, todavía, un problema de escala manejable."
+      ],
+      "ref": [
+        "Xu, H., et al. (2026). Impacts of local anthropogenic stressors outpace those of climate on coral reef collapse in the northern South China Sea. Nature Communications. https://consensus.app/papers/details/a45f873bd8b7518a8c75e0f3ac5aca5c"
+]
+},
+{
+  "slug": "nitrospira-sedimentos-abisales",
+  "cat": "micro",
+  "type": "noticia",
+  "date": "26 agosto 2026",
+  "read": "6 min",
+  "title": "Nitrospira tenía un pariente escondido en el fondo del mar",
+  "excerpt": "Dos linajes de una bacteria nitrificante nunca descritos en sedimentos abisales, con genes de transporte que delatan una vida oligotrófica y salina.",
+  "bites": [
+    "Nitrospira es un género clave en el ciclo del nitrógeno, con especies capaces de completar la oxidación total del amonio (comammox).",
+    "A partir de genomas ensamblados por metagenómica, se han identificado dos linajes de Nitrospira nunca antes descritos en sedimentos abisales.",
+    "Sus genes de transporte de amonio y osmorregulación sugieren adaptación a ambientes pobres en nutrientes y salinos."
+  ],
+  "body": [
+    "El género Nitrospira lleva un par de décadas dando sorpresas. Primero se pensaba que solo oxidaba nitrito; luego se descubrió que algunas de sus especies pueden hacer el proceso completo, de amonio a nitrato, sin ayuda de otras bacterias, un fenómeno bautizado como comammox. La mayoría de ese conocimiento viene de suelos y ambientes costeros. El fondo abisal se había quedado, hasta ahora, en blanco.",
+    "Un grupo de investigación ha recuperado, a partir de sedimentos de aguas profundas, cinco genomas ensamblados por metagenómica afiliados a Nitrospira de los linajes II a IV. Dos de esos genomas resultaron especialmente interesantes: representan un linaje III y un Nitrospira comammox nunca descritos en ambientes marinos, lo bastante distintos de sus parientes terrestres y costeros como para justificar dos nuevos grupos, bautizados como \"lineage III clade B\" y \"comammox clade A4\".",
+    "Lo que delata su estilo de vida son los genes de transporte que llevan encima: transportadores de amonio de alta afinidad, un sistema de captación de glicerol-3-fosfato, un antiportador Na+/H+ multisubunidad y transportadores de betaína. Es, en conjunto, el equipo genético típico de un organismo que vive con poco alimento disponible y mucha sal alrededor, justo las condiciones del sedimento abisal.",
+    "El hallazgo importa más allá de la anécdota taxonómica: el análisis de reclutamiento de lecturas sugiere que estos linajes tienen una distribución potencialmente panoceánica, aunque en abundancias muy bajas. Eso amplía el mapa de quién participa en el ciclo del nitrógeno marino, un proceso biogeoquímico del que se conoce razonablemente bien la superficie del océano y muy poco su fondo."
+  ],
+  "ref": [
+    "Chen, G., et al. (2026). Unique phylogenies and metabolic adaptations of novel lineage III and comammox Nitrospira species from deep-sea sediments. ISME Communications. https://consensus.app/papers/details/052f4b7609de5544b4f876a235a7c1a6"
   ]
+},
+{
+  "slug": "proyecto-blues-cultivo-celular",
+  "cat": "biot",
+  "type": "noticia",
+  "date": "01 septiembre 2026",
+  "read": "7 min",
+  "title": "Cultivar invertebrados marinos en placa para no tener que pescarlos",
+  "excerpt": "El proyecto europeo BLUES desarrolla líneas celulares de esponjas, cnidarios, equinodermos y tunicados para producir compuestos bioactivos sin recolección silvestre.",
+  "bites": [
+    "Más del 50% de los fármacos comercializados derivan, directa o indirectamente, de productos naturales.",
+    "Muchos compuestos marinos aparecen en concentraciones tan bajas que su recolección silvestre no es una vía de suministro viable.",
+    "El proyecto Horizon BLUES desarrolla cultivo celular in vitro para cuatro filos de invertebrados marinos como alternativa a la extracción y la síntesis química."
+  ],
+  "body": [
+    "Uno de los secretos peor guardados de la farmacología marina es que casi ningún compuesto prometedor pasa de la fase de laboratorio a la de fármaco por un motivo poco romántico: no hay forma económica de producirlo a escala. Muchas moléculas interesantes aparecen en concentraciones mínimas en el organismo que las produce, y ni la recolección silvestre ni la síntesis química total resuelven el problema sin destrozar poblaciones o disparar los costes.",
+    "El proyecto europeo BLUES, financiado por Horizon Europe, ataca ese cuello de botella desde otro ángulo: en vez de recolectar el animal entero, cultivar sus células. El objetivo es desarrollar sistemas de cultivo celular in vitro para cuatro filos de invertebrados marinos —esponjas, cnidarios, equinodermos y tunicados— y optimizar los rendimientos de producción como alternativa tanto a la recolección silvestre como a la síntesis química.",
+    "La idea no es nueva en biotecnología terrestre —así se producen buena parte de los anticuerpos y muchas vacunas—, pero trasladarla a invertebrados marinos exige resolver problemas específicos: medios de cultivo con la composición iónica adecuada, líneas celulares estables que no pierdan la capacidad de sintetizar el metabolito de interés, y procesos escalables a nivel industrial.",
+    "Si el enfoque funciona, el impacto no es solo farmacológico. Encaja en la lógica de la economía circular y la bioeconomía azul: producir compuestos de alto valor sin depender de extraer biomasa del océano, con líneas celulares que actúan como una \"fábrica\" reproducible y desvinculada de la disponibilidad estacional o geográfica del organismo original."
+  ],
+  "ref": [
+    "Grazette, A., et al. (2026). Bioprocesses for metabolite production from marine invertebrates: the European Horizon BLUES project. Research Ideas and Outcomes. https://consensus.app/papers/details/bb423275137759a38af5dd63960b942b"
+  ]
+},
+{
+  "slug": "volatiles-cymodocea-nodosa",
+  "cat": "quim",
+  "type": "noticia",
+  "date": "07 septiembre 2026",
+  "read": "6 min",
+  "title": "Lo que exhala una pradera marina cuando hace calor",
+  "excerpt": "171 compuestos orgánicos volátiles caracterizados en Cymodocea nodosa a lo largo de un año, con una firma de estrés que se dispara en verano.",
+  "bites": [
+    "Cymodocea nodosa es una fanerógama marina clave en el Mediterráneo, poco estudiada en cuanto a compuestos orgánicos volátiles biogénicos.",
+    "Con microextracción en fase sólida por espacio de cabeza y GC-MS se identificaron 171 compuestos volátiles en seis localidades mediterráneas.",
+    "El verano concentra el mayor número y abundancia de volátiles, incluidos marcadores de estrés como el dimetilsulfuro."
+  ],
+  "body": [
+    "Las plantas terrestres llevan décadas estudiándose por lo que \"hablan\" a través de compuestos orgánicos volátiles: señales de estrés, defensa frente a herbívoros, comunicación entre individuos. Las praderas marinas, sus primas readaptadas al agua salada, se han quedado mucho más atrás en ese terreno, en parte porque capturar un volátil bajo el agua es logísticamente más complicado que hacerlo en el aire.",
+    "Un equipo ha caracterizado el volatiloma de Cymodocea nodosa, una de las fanerógamas marinas más extendidas del Mediterráneo, muestreando seis localidades —tres de mar abierto y tres de laguna costera— a lo largo de las cuatro estaciones. Con microextracción en fase sólida por espacio de cabeza acoplada a cromatografía de gases-espectrometría de masas, identificaron 171 compuestos distintos, con el máximo de riqueza y abundancia en verano: 145 compuestos frente a los 103 detectados en invierno.",
+    "La estación explica la mayor parte de la varianza en el perfil volátil (26,1%), por delante incluso de la localidad de muestreo. Entre los compuestos que más se correlacionan con temperatura, luz y salinidad aparecen la geranilacetona, el β-ciclocitral, la β-ionona y el dimetilsulfuro, todos ellos productos típicos de la degradación oxidativa de pigmentos fotosintéticos y lípidos bajo estrés.",
+    "Más allá del catálogo, el hallazgo abre una vía práctica: si ciertos volátiles se disparan de forma predecible con el calor, podrían funcionar como biomarcadores de estrés térmico en praderas marinas, una herramienta de monitorización no invasiva para un ecosistema que, como el de las praderas de Posidonia y Cymodocea, está bajo presión creciente por el calentamiento del Mediterráneo."
+  ],
+  "ref": [
+    "Coquin, S., et al. (2026). Seasonal and spatial shifts in the volatile chemical profile of Cymodocea nodosa across marine and lagoon ecosystems. Scientific Reports. https://consensus.app/papers/details/912c3be4f2755e2383875f2e99884fc4"
+  ]
+},
+{
+  "slug": "genomica-delfines-mulares",
+  "cat": "gen",
+  "type": "noticia",
+  "date": "13 septiembre 2026",
+  "read": "8 min",
+  "title": "Los delfines de la costa australiana se adaptaron dos veces, por caminos distintos",
+  "excerpt": "La secuenciación de genoma completo revela una colonización en dos frentes desde un origen común y adaptación paralela en las poblaciones tropicales.",
+  "bites": [
+    "El delfín mular indopacífico (Tursiops aduncus) ocupa casi toda la costa australiana, de aguas tropicales a templadas.",
+    "La secuenciación de genoma completo revela dos frentes de colonización independientes, este y oeste, desde un origen norteño común.",
+    "Los loci bajo selección agrupan a los individuos por hábitat tropical más que por distancia geográfica, señal de adaptación paralela."
+  ],
+  "body": [
+    "Cuando una misma especie ocupa un gradiente ambiental tan amplio como el que va de las aguas tropicales del norte de Australia a las templadas del sur, cabe esperar que la selección natural deje huella. La pregunta interesante no es si ocurre, sino cómo: ¿la misma solución genética se repite allá donde hace falta, o cada población tropical resuelve el problema del calor y la salinidad a su manera?",
+    "Un equipo secuenció genomas completos de delfines mulares indopacíficos (Tursiops aduncus) a lo largo de la costa australiana y reconstruyó tanto la historia demográfica como la divergencia adaptativa a escala continental. La variación genómica neutra sigue un patrón geográfico claro: un origen común en el norte, seguido de dos colonizaciones independientes tipo \"stepping-stone\" hacia el este y hacia el oeste.",
+    "La sorpresa llega con los loci candidatos a estar bajo selección: en vez de seguir ese mismo patrón geográfico, agrupan a los individuos por tipo de hábitat —tropical frente a templado— con independencia de si están en la costa este u oeste. Es decir, poblaciones separadas por miles de kilómetros y sin apenas flujo génico directo convergen en las mismas soluciones genéticas frente a condiciones ambientales parecidas: adaptación paralela.",
+    "Esos loci candidatos están enriquecidos en genes de metabolismo y transporte iónico, y también aparecen señales en rutas neuronales, coherentes con tratarse de un mamífero marino social y cognitivamente avanzado. Para la conservación, el mensaje es concreto: dos poblaciones \"tropicales\" en costas opuestas de Australia pueden llevar información adaptativa distinta y valiosa, algo que la genética neutra por sí sola no habría revelado."
+  ],
+  "ref": [
+    "Marfurt, S. M., et al. (2026). Whole-genome-sequencing reveals demographic history and patterns of parallel adaptive evolution in Indo-Pacific bottlenose dolphins (Tursiops aduncus) across coastal Australian seascapes. Molecular Ecology. https://consensus.app/papers/details/63a5afccc2e15fbb86e246921236629b"
+  ]
+},
+{
+  "slug": "expansion-fondo-oceanico",
+  "cat": "ocea",
+  "type": "noticia",
+  "date": "19 septiembre 2026",
+  "read": "8 min",
+  "title": "Así se abre el fondo del océano: la primera vez que alguien lo vio en directo",
+  "excerpt": "Instrumentos desplegados en la dorsal del Índico Sudoriental capturan, minuto a minuto, un episodio completo de expansión del fondo oceánico.",
+  "bites": [
+    "Los instrumentos de la dorsal del Índico Sudoriental registraron in situ un episodio completo de rifting en abril de 2024.",
+    "El evento provocó 4 metros de subsidencia y más de un metro de extensión horizontal en el valle axial.",
+    "En dieciséis días se derramaron unos 160 millones de m³ de lava en el fondo marino."
+  ],
+  "body": [
+    "El crecimiento del fondo oceánico es uno de esos procesos geológicos que todo el mundo da por sabido y casi nadie ha visto ocurrir. Sucede en dorsales mesoceánicas, la mayoría a miles de metros de profundidad, y monitorizar sísmica y geodésicamente esos límites de placa submarinos es tan difícil que hasta ahora nadie tenía un registro completo de un episodio, de principio a fin.",
+    "Eso cambió el 26 de abril de 2024, dos meses después de que un equipo desplegara instrumentos hidroacústicos, de posicionamiento de trayecto directo y de presión de fondo, junto con cartografía batimétrica repetida, a lo largo de un segmento de la dorsal del Índico Sudoriental, cerca del paralelo 37° S. Ahí comenzó un enjambre sísmico extensional que migró rápidamente a lo largo del valle axial.",
+    "El episodio dejó una huella física medible: 4 metros de subsidencia del suelo del valle y más de un metro de extensión horizontal a través de él. La interpretación es que se trató del desinflado de un reservorio magmático en forma de sill que alimentó diques propagándose a lo largo del eje de la dorsal, con una efusión final de aproximadamente 160 millones de metros cúbicos de lava en apenas dieciséis días.",
+    "Lo más relevante para la geodinámica no es solo el volumen, sino el mecanismo: el evento indujo deslizamiento sísmico y asísmico en las fallas normales que bordean el valle, y acabó disparando actividad sísmica en fallas transformantes cercanas. Eso sugiere que el deslizamiento asísmico inducido por procesos magmáticos podría ser el mecanismo principal por el que estas fallas normales acumulan desplazamiento, lo que explicaría por qué en las dorsales mesoceánicas se registra menos sismicidad de la esperada."
+  ],
+  "ref": [
+    "Royer, J.-Y., et al. (2026). Anatomy of a seafloor spreading event captured by in situ seismogeodesy. Nature. https://consensus.app/papers/details/8bddcd5ddabb52c2a2644adc03c76571"
+  ]
+},
+{
+  "slug": "probioticos-curcumina-robalo",
+  "cat": "acui",
+  "type": "noticia",
+  "date": "25 septiembre 2026",
+  "read": "7 min",
+  "title": "Probióticos y curcumina en el pienso: un róbalo más difícil de matar",
+  "excerpt": "Una combinación de probiótico encapsulado y curcumina sube un 33% el peso corporal y mejora la supervivencia frente a dos patógenos habituales en acuicultura.",
+  "bites": [
+    "El róbalo asiático (Lates calcarifer) sufre brotes recurrentes de Streptococcus iniae y Vibrio parahaemolyticus en cultivo intensivo.",
+    "La cepa Lactiplantibacillus plantarum, encapsulada en alginato, mostró el mayor efecto inhibidor entre once probióticos evaluados.",
+    "La combinación de probiótico y curcumina en pienso aumentó el peso corporal un 33% y mejoró la supervivencia frente a ambos patógenos."
+  ],
+  "body": [
+    "La acuicultura intensiva vive atrapada entre dos presiones que se retroalimentan: cuanta más densidad de cultivo, más fácil que un brote bacteriano se propague, y cuanto más se recurre a antibióticos para contenerlo, más presión selectiva se ejerce sobre la resistencia antimicrobiana. Encontrar alternativas eficaces sin depender del antibiótico es, a estas alturas, casi una obligación regulatoria además de sanitaria.",
+    "Un equipo puso a prueba una combinación de dos ingredientes de origen muy distinto en piensos funcionales para róbalo asiático (Lates calcarifer): probióticos encapsulados y curcumina, el pigmento bioactivo de la cúrcuma. De once cepas probióticas cribadas, Lactiplantibacillus plantarum mostró el mayor efecto inhibidor frente a los patógenos objetivo y la mejor viabilidad tras la encapsulación en alginato, un recubrimiento que protege a la bacteria del tránsito digestivo.",
+    "La curcumina, por su parte, inhibió selectivamente a los patógenos sin afectar al crecimiento del probiótico, y la combinación de ambos mostró efectos antimicrobianos sinérgicos in vitro. En el ensayo de alimentación con peces desafiados frente a Streptococcus iniae y Vibrio parahaemolyticus, los probióticos encapsulados por sí solos ya aumentaron el peso corporal un 33% respecto al control, y todas las dietas suplementadas mejoraron la eficiencia de conversión del alimento y la supervivencia.",
+    "El dato más interesante es que la combinación de ambos ingredientes superó a cada uno por separado, tanto en supervivencia tras el desafío patógeno como en protección inmunitaria. Es un ejemplo relativamente limpio de cómo dos estrategias no antibióticas —modulación microbiana y fitoquímica— pueden complementarse en vez de simplemente sumarse, algo que interesa tanto a la producción como a la reducción del uso de antibióticos en el sector."
+  ],
+  "ref": [
+    "Tran, T.-T., et al. (2026). Combinatorial supplementation of fish feeds enhanced growth performance and disease resilience in aquaculture. Journal of Animal Science and Biotechnology. https://consensus.app/papers/details/e86673f77fdd5371a76c6e4c8ce2b339"
+  ]
+},
+{
+  "slug": "epigenetica-lapa-abisal",
+  "cat": "bio",
+  "type": "noticia",
+  "date": "01 octubre 2026",
+  "read": "7 min",
+  "title": "Metilar el ADN a 400 atmósferas: la epigenética de una lapa abisal",
+  "excerpt": "El primer mapa genómico de metilación 6mA en un animal de fondo abisal vincula esta marca epigenética a genes de metabolismo energético y osmorregulación.",
+  "bites": [
+    "Bathyacmaea lactea es una lapa de filtración fría que vive en condiciones de alta presión, frío y oscuridad permanente.",
+    "Se identificaron más de 281.000 sitios de metilación de adenina N6 (6mA), en torno al 0,13% de todas las adeninas del genoma.",
+    "Más del 60% de los genes presentan 6mA, con sitios enriquecidos en exones y correlacionados con transcripción activa."
+  ],
+  "body": [
+    "Cuando se habla de adaptación a ambientes extremos, la conversación suele quedarse en la secuencia del ADN: qué mutaciones, qué genes bajo selección. Pero hay otra capa de información que no cambia la secuencia y aun así puede regular cuándo y cuánto se expresa un gen: la epigenética. En animales de fondo abisal, esa capa había permanecido casi inexplorada.",
+    "Un equipo generó el primer mapa genómico completo de metilación de adenina N6 (6mA) en un animal abisal, la lapa de filtración fría Bathyacmaea lactea, usando secuenciación de molécula única en tiempo real de PacBio. El resultado son 281.772 sitios de 6mA de alta confianza, en torno al 0,13% de todas las adeninas del genoma, con más del 60% de los genes portando al menos una marca.",
+    "La distribución no es aleatoria: los sitios de 6mA están significativamente enriquecidos en exones, y al cruzar los datos con expresión génica por RNA-seq aparece un patrón claro: la 6mA en el cuerpo del gen se asocia a transcripción activa, mientras que la 6mA en la región promotora se asocia a represión. Los genes con más 6mA están enriquecidos en rutas de metabolismo energético, homeostasis proteica y osmorregulación.",
+    "Ese trío de funciones —energía, plegamiento de proteínas, balance osmótico— es precisamente el que un animal necesita ajustar para sobrevivir a alta presión, frío extremo y oscuridad total. El hallazgo no demuestra que la 6mA cause la adaptación, pero sí coloca a la regulación epigenética como una capa adicional, hasta ahora invisible, en la caja de herramientas con la que la fauna abisal se ajusta a su entorno."
+  ],
+  "ref": [
+    "Chen, C., et al. (2026). Genome-wide 6mA map unveils epigenetic adaptation in deep-sea limpet. Ecology and Evolution. https://consensus.app/papers/details/5693a64f47a654dfa8da1b93395da179"
+  ]
+},
+{
+  "slug": "nebulizacion-marina-coral",
+  "cat": "eco",
+  "type": "tecnica",
+  "date": "07 octubre 2026",
+  "read": "6 min",
+  "title": "Poner un velo sobre el arrecife: nebulizar agua de mar contra el blanqueamiento",
+  "excerpt": "Primera prueba experimental de la nebulización marina como escudo frente al blanqueamiento: menos luz, menos estrés, pero también menos fotosíntesis.",
+  "bites": [
+    "La nebulización marina consiste en aerosolizar agua de mar para crear una capa de niebla que reduce la irradiancia sobre el arrecife.",
+    "En un experimento con Pocillopora meandrina, una reducción de irradiancia del 21,5% mejoró la densidad de simbiontes y redujo el blanqueamiento visible.",
+    "La misma reducción de luz también disminuyó la eficiencia fotosintética, señal de que el remedio tiene un coste."
+  ],
+  "body": [
+    "Entre las intervenciones activas que se están probando para ganar tiempo a los arrecifes de coral mientras se resuelve el problema de fondo —las emisiones globales—, hay una que suena casi doméstica: hacer sombra. Si el blanqueamiento se dispara cuando la combinación de calor y luz solar excesiva daña la maquinaria fotosintética de las algas simbiontes del coral, reducir esa luz durante los picos de estrés térmico podría amortiguar el daño.",
+    "Un equipo probó por primera vez, en un experimento controlado de acuario, la nebulización de agua de mar como método de mitigación del blanqueamiento en Pocillopora meandrina. El diseño cruzó dos factores: temperatura (estrés térmico frente a control) y nebulización (una reducción de irradiancia del 20-25% durante seis horas diarias, frente a colonias sin nebulizar).",
+    "Con un nivel medio de nebulización del 21,5% de reducción de luz, los corales mostraron mayor densidad de simbiontes y menor porcentaje de blanqueamiento visible que sus equivalentes no nebulizados bajo el mismo estrés térmico. Pero el mismo tratamiento redujo también la eficiencia fotosintética, un resultado mixto que deja claro que reducir la luz no es un beneficio gratuito: hay un punto en el que proteger de la irradiancia empieza a limitar la propia fotosíntesis de la que depende el coral.",
+    "La conclusión de los propios autores es prudente: la nebulización funciona como técnica de sombreado variable, pero necesita más investigación para calibrar el nivel óptimo de reducción de luz según especie y contexto. Como toda intervención activa en arrecifes, no sustituye a reducir las emisiones que generan las olas de calor marino, pero añade una herramienta más al catálogo de opciones de gestión de corto plazo."
+  ],
+  "ref": [
+    "Hendrickson, C. A., et al. (2026). Experimental evaluation of marine fogging as a coral bleaching intervention method. Marine Environmental Research. https://consensus.app/papers/details/95c153227de95bf8842f0a72adb52e4b"
+  ]
+},
+{
+  "slug": "microbioma-ultrapequeno",
+  "cat": "micro",
+  "type": "noticia",
+  "date": "13 octubre 2026",
+  "read": "8 min",
+  "title": "Lo más pequeño del océano no era solo virus",
+  "excerpt": "El primer estudio genómico de la fracción microbiana menor de 0,2 µm revela más de mil especies, muchas de ellas diazótrofas árticas.",
+  "bites": [
+    "La fracción ultrapequeña (menor de 0,2 µm) del microbioma oceánico se consideraba dominada casi por completo por virus.",
+    "Se ensamblaron 4.058 genomas a partir de metagenomas, representando 1.152 especies de Bacteria y Archaea, dos tercios de ellas nunca descritas.",
+    "Se identificaron 13 especies diazótrofas no cianobacterianas con operones de nitrogenasa completos, especialmente abundantes en el Ártico."
+  ],
+  "body": [
+    "En oceanografía microbiana hay un corte de tamaño, 0,2 micras, que durante mucho tiempo funcionó como frontera práctica entre \"vida celular\" y \"virus\". Por debajo de esa medida, el supuesto por defecto era que casi todo lo que había era material vírico. Ese supuesto acaba de recibir un correctivo serio.",
+  "Un equipo realizó el primer estudio genómico exhaustivo de esta fracción ultrapequeña, ensamblando 4.058 genomas a partir de metagenomas que representan 1.152 especies de Bacteria (90,7%) y Archaea (9,3%), dominadas por Pseudomonadota, Bacteroidota y Nanoarchaeota. Más de 490 genomas aparecieron exclusivamente en esta fracción, y el 66,8% de ellos corresponden a taxones nunca antes descritos, especialmente abundantes en aguas superficiales del Ártico.",
+  "Más allá de los ya conocidos habitantes de tamaño reducido —arqueas DPANN y Patescibacteria, ambos con genomas y metabolismos característicamente reducidos—, la anotación funcional reveló un potencial metabólico sorprendentemente diverso en los ciclos de nitrógeno, azufre y carbono. El hallazgo más llamativo son 13 especies diazótrofas no cianobacterianas, con operones de nitrogenasa completos repartidos en cuatro clases bacterianas distintas, organizadas en dos ecotipos: unas cosmopolitas y de baja abundancia, y otras restringidas al Ártico que alcanzan hasta el 16,7% de abundancia relativa.",
+  "Que organismos tan diminutos puedan fijar nitrógeno atmosférico, y hacerlo en concentraciones nada despreciables en el Ártico, obliga a revisar los presupuestos polares de nitrógeno y los modelos biogeoquímicos globales que, hasta ahora, apenas contemplaban esta fracción como algo más que un ruido de fondo vírico."
+  ],
+  "ref": [
+    "Höllerer, C. A., et al. (2026). The ultrasmall ocean microbiome: a reservoir of microbial diversity and nitrogen fixation. bioRxiv. https://consensus.app/papers/details/42c4592abf1757e9ade15446bb0b45ee"
+  ]
+},
+{
+  "slug": "peptidos-ambientes-extremos",
+  "cat": "biot",
+  "type": "noticia",
+  "date": "19 octubre 2026",
+  "read": "7 min",
+  "title": "El veneno de un caracol de 1.000 metros ya es un medicamento: qué más hay ahí abajo",
+  "excerpt": "Una revisión reúne los péptidos bioactivos aislados de organismos marinos extremófilos, del abisal al polar, con el ziconotide como prueba de concepto.",
+  "bites": [
+    "El ziconotide (Prialt), derivado del veneno de un caracol cono de más de 1.000 metros de profundidad, ya se usa clínicamente para dolor severo.",
+    "La revisión cataloga péptidos con actividad antioxidante, antiinflamatoria y anticancerígena de organismos de fondos abisales, regiones polares y aguas tropicales.",
+    "Los ambientes extremos favorecen péptidos con perfiles de estabilidad inusuales, atractivos para aplicaciones industriales exigentes."
+  ],
+  "body": [
+    "Cada vez que se cuestiona si merece la pena seguir bioprospectando en el océano, hay un contraejemplo a mano: el ziconotide, comercializado como Prialt, un péptido neurotóxico derivado del veneno de un caracol cono que vive a más de 1.000 metros de profundidad, aprobado para el tratamiento del dolor severo. Es la prueba de que el camino de laboratorio a fármaco, aunque largo, es transitable.",
+    "Una revisión reciente se centra específicamente en péptidos procedentes de organismos que habitan ambientes marinos extremos: fondos abisales, regiones polares y, en menor medida, aguas tropicales. La lógica es sencilla: condiciones de presión, temperatura o radiación fuera de lo común empujan a la evolución hacia moléculas con estructuras y estabilidades poco habituales, justo lo que interesa a la industria farmacéutica y biotecnológica.",
+    "El balance que hace la revisión es concreto: en torno a ocho péptidos con propiedades anticancerígenas identificados en ambientes profundos, nueve antioxidantes, dos antiinflamatorios y siete anticancerígenos de hábitats polares, y del orden de noventa péptidos de aguas tropicales repartidos entre actividad antioxidante, antiinflamatoria y anticancerígena. Herramientas computacionales recientes están acelerando la identificación de nuevos candidatos, aunque los autores señalan que muy pocos proceden todavía de ambientes realmente extremos.",
+    "El cuello de botella no es tanto encontrar candidatos como validarlos: desarrollar tecnologías de muestreo, sistemas de cultivo y métodos para evaluar eficacia, efectos secundarios y mecanismo de acción tanto in vitro como in vivo. El ziconotide demuestra que el recorrido completo es posible; el reto es que deje de ser la excepción."
+  ],
+  "ref": [
+    "Zakariya, M., et al. (2026). Antioxidant, anti-inflammatory and anticancer peptides from extreme marine environments. Antioxidants. https://consensus.app/papers/details/2bdbe918573c532f941e3eb8798fe336"
+  ]
+},
+{
+  "slug": "ia-anotacion-productos-marinos",
+  "cat": "quim",
+  "type": "tecnica",
+  "date": "25 octubre 2026",
+  "read": "7 min",
+  "title": "Cuando una base de datos de química marina miente sobre el origen de un compuesto",
+  "excerpt": "Una red neuronal de grafos detecta y corrige errores de anotación de origen biológico en productos naturales marinos, con un 85,56% de precisión.",
+  "bites": [
+    "Muchos productos naturales marinos se atribuyen a un organismo huésped cuando en realidad los produce un microorganismo simbionte.",
+    "Un modelo de red neuronal de grafos, preentrenado con datos microbianos, detecta esas anotaciones incorrectas en bases de datos como CMNPD y NPAtlas.",
+    "El modelo identificó 3.996 compuestos cuyo origen microbiano predicho contradice su etiqueta actual como producto animal."
+  ],
+  "body": [
+    "Las bases de datos de productos naturales marinos son, en teoría, la memoria colectiva de décadas de química de organismos marinos. En la práctica, arrastran un problema estructural: muchos compuestos atribuidos a un animal —una esponja, un molusco, un tunicado— en realidad los produce un microorganismo que vive asociado a él, y esa confusión de origen se propaga sin corregir de un artículo a otro y de una base de datos a la siguiente.",
+    "Para atajarlo, un equipo desarrolló un flujo de trabajo de clasificación de origen y corrección de anotaciones basado en la estructura química del compuesto. El núcleo del sistema es una red neuronal de grafos preentrenada con datos microbianos, combinada con una estrategia de limpieza en dos pasos que detecta inconsistencias de etiquetado y filtra estructuras atípicas.",
+    "Aplicado a los compuestos de las bases de datos CMNPD y NPAtlas, el modelo alcanza una precisión balanceada del 85,56% e identifica 3.996 compuestos cuyo origen microbiano predicho contradice su etiqueta actual de origen animal (Animalia). Esos metabolitos putativamente simbióticos se concentran, además, en taxones ya conocidos por su alto riesgo de confusión de origen, y el análisis de interpretabilidad muestra patrones estructurales biológicamente coherentes con ese origen microbiano.",
+    "El valor de la herramienta no es solo depurar un catálogo: una anotación de origen incorrecta puede desviar por completo un programa de biodescubrimiento, llevando a cultivar el organismo equivocado o a buscar el grupo de genes biosintéticos en el genoma que no toca. En un campo cada vez más apoyado en IA para descubrir fármacos, la calidad de los datos de partida deja de ser un detalle técnico y pasa a ser una condición de posibilidad."
+  ],
+  "ref": [
+    "Tian, X., et al. (2026). A structure-based deep learning framework for correcting marine natural products' misannotations attributed to host-microbe symbiosis. Marine Drugs. https://consensus.app/papers/details/8029270b03e9520dad3676f30abaaf1f"
+  ]
+},
+{
+  "slug": "genomica-quiton-chino",
+  "cat": "gen",
+  "type": "noticia",
+  "date": "31 octubre 2026",
+  "read": "7 min",
+  "title": "Un molusco con armadura que cuenta la historia del último máximo glacial",
+  "excerpt": "La resecuenciación de 68 quitones chinos revela una divergencia poblacional de hace 19.000 años y genes de adaptación al oleaje intermareal.",
+  "bites": [
+    "Los quitones (Polyplacophora) son un grupo evolutivamente antiguo y muy infrarrepresentado en estudios de genómica marina.",
+    "La resecuenciación de 68 individuos de Liolophura sinensis en nueve poblaciones detecta divergencia genética entre grupos hace ~19.000 años.",
+    "Los genes bajo selección están enriquecidos en respuesta inmune, homeostasis celular y dinámica del citoesqueleto, rasgos ligados a la vida intermareal."
+  ],
+  "body": [
+    "Los quitones tienen mala prensa divulgativa: se les asocia con \"lo primitivo\", cuando en realidad son un grupo evolutivamente singular dentro de los moluscos, con una biología intermareal exigente que rara vez recibe la atención genómica que sí reciben peces, corales o crustáceos comerciales.",
+    "Un equipo secuenció con alta profundidad 68 individuos del quitón chino (Liolophura sinensis), una especie recientemente delimitada dentro del complejo Liolophura japonica, repartidos en nueve poblaciones. El análisis poblacional detecta una subestructura genética clara entre un grupo de Taizhou y un grupo del sur, con una divergencia estimada en torno a 19.000 años, una fecha que coincide con los mínimos del nivel del mar del Pleistoceno tardío.",
+    "El patrón de flujo génico es unidireccional, compatible con una dispersión larvaria mediada por corrientes oceánicas, coherente con los rasgos de historia de vida específicos de la especie. Más interesante aún es lo que aparece en los escaneos de selección: un enriquecimiento significativo de genes relacionados con respuesta inmune, homeostasis celular y dinámica del citoesqueleto, todos ellos rasgos potencialmente relevantes para sobrevivir en un hábitat rocoso batido por el oleaje.",
+    "El estudio deja un marco de referencia poco habitual: estructura poblacional fuerte, divergencia reciente y regiones genómicas candidatas a estar bajo adaptación local, todo ello en un grupo taxonómico —los poliplacóforos— que la genómica marina ha tendido a pasar por alto frente a grupos con mayor interés comercial o mediático."
+  ],
+  "ref": [
+    "Rusitanmu, D., et al. (2026). Population genomics reveals population structure, glacial divergence, and intertidal adaptation in the Chinese chiton (Liolophura sinensis). Communications Biology. https://consensus.app/papers/details/c9c349da6ddd5e27b3180d558dac16a9"
+  ]
+},
+{
+  "slug": "chimeneas-termoelectricas",
+  "cat": "ocea",
+  "type": "noticia",
+  "date": "06 noviembre 2026",
+  "read": "6 min",
+  "title": "Las chimeneas hidrotermales también generan su propia electricidad",
+  "excerpt": "Minerales sulfurados de chimeneas hidrotermales maduras funcionan como semiconductores tipo n, generando hasta 210 mV de fuerza termoelectromotriz.",
+  "bites": [
+    "Las chimeneas hidrotermales pueden presentar diferencias de temperatura de hasta 400 °C entre el fluido y el agua de mar circundante.",
+    "Los minerales sulfurados de las chimeneas son semiconductores, capaces en teoría de convertir esa diferencia térmica en electricidad.",
+    "Las chimeneas maduras, ricas en sulfuros de Cu, Fe y Pb, generan hasta 210 mV, comparable al potencial redox entre el fluido hidrotermal y el agua de mar."
+  ],
+  "body": [
+    "Una chimenea hidrotermal es, dicho sin metáfora, un gradiente térmico brutal encerrado en una estructura mineral: fluido a varios cientos de grados saliendo directamente al agua de mar helada del fondo oceánico. Que ese contraste térmico pudiera generar electricidad de forma pasiva, sin ningún dispositivo añadido, es una posibilidad que se había sugerido pero apenas medido.",
+    "Un equipo midió la conductividad eléctrica y la fuerza termoelectromotriz de minerales sulfurados típicos, y de distintas capas de la pared de chimeneas zonadas recogidas en respiraderos hidrotermales del fondo oceánico. Las chimeneas jóvenes y porosas, compuestas sobre todo de sulfato de grano fino y sulfuro de zinc, resultaron tener una conductividad eléctrica extremadamente baja: prácticamente no generan nada.",
+    "El panorama cambia con la madurez. Las chimeneas maduras, con paredes internas ricas en sulfuros de cobre, hierro y plomo, se comportan como semiconductores tipo n con un rendimiento de conversión termoeléctrica notable. Con una diferencia de temperatura de 200-300 °C entre el fluido hidrotermal y el agua de mar ambiente, la fuerza termoelectromotriz de estas chimeneas maduras alcanza entre 10 y 210 mV, un valor comparable al potencial redox entre ambos fluidos.",
+    "Esa cifra no es un dato curioso y ya está: los autores plantean que esta fuerza termoelectromotriz podría actuar como una fuente de energía que ayuda a superar el sobrepotencial necesario para las reacciones redox que ocurren en ambos lados de la pared de la chimenea. Dicho de otro modo, la propia estructura mineral de la chimenea funcionaría como un sistema termoeléctrico autoorganizado que sostiene, en parte, la química que alimenta a los ecosistemas quimiosintéticos que viven a su alrededor."
+  ],
+  "ref": [
+    "Okamoto, A., et al. (2026). Self-organized thermoelectric conversion systems on the deep seafloor. Geology. https://consensus.app/papers/details/690731e93d1d56dea95381d144a1a197"
+  ]
+},
+{
+  "slug": "lipopeptidos-acuicultura",
+  "cat": "acui",
+  "type": "tecnica",
+  "date": "12 noviembre 2026",
+  "read": "7 min",
+  "title": "Bacterias marinas contra Vibrio: lipopéptidos como alternativa a los antibióticos en jaulas marinas",
+  "excerpt": "Surfactinas, fengicinas, iturinas y daptomicina: una familia de compuestos bacterianos con actividad antimicrobiana de amplio espectro y buena biodegradabilidad.",
+  "bites": [
+    "Los lipopéptidos son producidos por bacterias marinas como Bacillus amyloliquefaciens y Bacillus subtilis, entre otras.",
+    "Surfactinas e iturinas desestabilizan la membrana de patógenos como Vibrio spp. y Aeromonas spp. mediante su estructura anfipática.",
+    "La daptomicina, derivada de Streptomyces, ya se usa clínicamente, lo que demuestra que la clase completa es desarrollable terapéuticamente."
+  ],
+  "body": [
+    "La acuicultura en jaulas en mar abierto tiene un problema estructural con las enfermedades bacterianas: alta densidad de cultivo, contacto directo con el ambiente marino y una dependencia de antibióticos que, además de generar resistencias, se dispersan directamente en el ecosistema circundante sin ningún tipo de contención física.",
+    "Una revisión reciente evalúa la viabilidad de una familia de compuestos producidos por bacterias marinas —lipopéptidos como surfactinas, fengicinas e iturinas, generados por especies de Bacillus como B. amyloliquefaciens y B. subtilis— como alternativa sostenible en el manejo sanitario de estos sistemas. Su estructura anfipática les permite desestabilizar la membrana de patógenos habituales en acuicultura, entre ellos Vibrio spp. y Aeromonas spp., además de inhibir la formación de biofilm.",
+    "El repaso de actividades es amplio: las surfactinas e iturinas muestran actividad de amplio espectro, mientras que las fengicinas son selectivamente activas frente a hongos. Como argumento de peso, la revisión recuerda que la daptomicina, un lipopéptido derivado de Streptomyces, ya está en uso clínico humano, lo que demuestra que la clase completa de compuestos es farmacológicamente desarrollable y no solo un candidato de laboratorio.",
+    "A favor de los lipopéptidos juega también su biodegradabilidad, muy superior a la de los antibióticos sintéticos, y cierta resistencia estructural a que los patógenos desarrollen resistencia con la misma facilidad. En contra, los autores señalan los obstáculos de siempre en biotecnología aplicada: producción biológicamente escalable, purificación económicamente viable y estabilidad suficiente para funcionar en condiciones reales de mar abierto."
+  ],
+  "ref": [
+    "Kumar, S., et al. (2026). Harnessing marine bacterial lipopeptides for sustainable disease management in open sea cage aquaculture. Oceans. https://consensus.app/papers/details/81f7329bbc3054ddaa16e56be71110a6"
+  ]
+},
+{
+  "slug": "ia-edna-abisal",
+  "cat": "bio",
+  "type": "tecnica",
+  "date": "18 noviembre 2026",
+  "read": "8 min",
+  "title": "Enseñar a una IA a leer ADN ambiental de aguas profundas",
+  "excerpt": "Un modelo híbrido CNN-Transformer, combinado con detección no supervisada de taxones nuevos, propone un flujo de trabajo de eDNA para el fondo abisal.",
+  "bites": [
+    "Se estima que millones de especies del fondo abisal permanecen sin describir, mal representadas en las bases de datos de referencia de eDNA.",
+    "El modelo combina una red híbrida CNN-Transformer con un módulo no supervisado (UMAP + HDBSCAN) para detectar taxones potencialmente nuevos.",
+    "En datos simulados, recuperó el 91,5% de los taxones nuevos con una precisión del 88,2%, procesando un millón de lecturas en 2,1 horas."
+  ],
+  "body": [
+    "El ADN ambiental (eDNA) ha simplificado mucho el muestreo de biodiversidad: en lugar de capturar cada organismo, basta con secuenciar el ADN suelto en el agua o el sedimento. El problema en ambientes abisales es distinto y más profundo: las bases de datos de referencia con las que se compara ese ADN están construidas, sobre todo, con especies costeras y de aguas someras, así que buena parte de la fauna abisal, sin describir, no tiene con qué compararse.",
+    "Un equipo propone un marco de inteligencia artificial de tres módulos para lidiar con ese vacío. El primero es un modelo híbrido CNN-Transformer entrenado para aprender representaciones de secuencia taxonómicamente informativas que no dependen únicamente de coincidir con una base de datos de referencia, y que en datos simulados de expediciones abisales alcanzó un F1 macro de 0,847.",
+    "El segundo módulo es el más interesante conceptualmente: en vez de descartar las secuencias que no encajan con nada conocido, las envía a un flujo de trabajo no supervisado basado en UMAP y HDBSCAN que busca agruparlas como taxones potencialmente nuevos. En el escenario de evaluación simulado, este módulo recuperó el 91,5% de los taxones nuevos reales con un 88,2% de precisión, y todo el proceso —un millón de lecturas de secuenciación— se completó en 2,1 horas usando cuatro GPU.",
+    "Los propios autores insisten en que se trata de resultados de prueba de concepto sobre datos simulados, pendientes de validación con secuenciación real de expediciones abisales. Pero el enfoque señala una dirección de trabajo con sentido: en un ambiente donde la mayoría de lo que hay todavía no tiene nombre, un sistema pensado para señalar activamente \"esto no encaja con nada conocido\" puede ser más útil que uno optimizado solo para clasificar lo ya descrito."
+  ],
+  "ref": [
+    "Gowda, D. R., et al. (2026). An AI-driven deep learning pipeline for taxonomic classification and biodiversity assessment of deep-sea environmental DNA. Computers in Biology and Medicine. https://consensus.app/papers/details/71e74144917d542799eec9d743482f61"
+  ]
+},
+{
+  "slug": "blanqueamiento-coral-2014-2017",
+  "cat": "eco",
+  "type": "noticia",
+  "date": "24 noviembre 2026",
+  "read": "8 min",
+  "title": "El Tercer Blanqueamiento Global, en números: la mitad de los arrecifes del planeta",
+  "excerpt": "Un análisis de más de 15.000 estudios de arrecifes documenta la magnitud real del evento de blanqueamiento de 2014-2017, la línea base del actual Cuarto Evento Global.",
+  "bites": [
+    "El Tercer Evento Global de Blanqueamiento de Corales (2014-2017) fue analizado con datos de 15.066 estudios de arrecifes en todo el mundo.",
+    "El 80% y el 35% de los arrecifes muestreados sufrieron blanqueamiento y mortalidad moderados o mayores, respectivamente.",
+    "Modelos basados en teledetección del estrés térmico estiman que el 51% y el 15% de los arrecifes del planeta se vieron afectados a esos niveles."
+  ],
+  "body": [
+    "Cuantificar el daño global de un evento de blanqueamiento de corales no es tan sencillo como sumar fotos de coral blanco: exige homogeneizar criterios de muestreo, definir umbrales de \"blanqueamiento moderado\" frente a \"severo\", y combinar observación directa con modelos que extrapolen a zonas sin muestreo. Ese es el trabajo que hay detrás de la evaluación más completa hasta la fecha del Tercer Evento Global de Blanqueamiento de Corales.",
+    "El análisis reúne datos de 15.066 estudios de arrecifes de todo el mundo realizados durante las olas de calor marino de 2014 a 2017. De los arrecifes efectivamente muestreados, el 80% mostró blanqueamiento moderado o mayor (afectando a más del 10% de los corales) y el 35% mostró mortalidad al mismo nivel de gravedad.",
+    "Para estimar el alcance global más allá de los puntos muestreados, el equipo calibró curvas de respuesta de blanqueamiento a partir de los arrecifes observados y las aplicó a mapas de estrés térmico acumulado por teledetección de todo el planeta. La proyección resultante: el 51% y el 15% de los arrecifes de coral del mundo sufrieron blanqueamiento y mortalidad moderados o mayores, respectivamente, durante uno o varios años de ese periodo, superando el daño de cualquier evento global anterior.",
+    "El nivel de estrés térmico registrado en este evento fue tan superior a lo previo que la NOAA desarrolló niveles de alerta de blanqueamiento más extremos, categorías que hoy se están usando activamente durante el actual Cuarto Evento Global de Blanqueamiento. Este estudio no es, por tanto, solo un balance histórico: es la línea base cuantitativa contra la que se mide si lo que está pasando ahora es comparable, peor, o (con suerte) menos grave."
+  ],
+  "ref": [
+    "Eakin, C. M., et al. (2026). Severe and widespread coral reef damage during the 2014-2017 Global Coral Bleaching Event. Nature Communications. https://consensus.app/papers/details/605535025a3a5c33bc0950a2911640b4"
+  ]
+},
+{
+  "slug": "metagenoma-esponja-pheronema",
+  "cat": "micro",
+  "type": "tecnica",
+  "date": "30 noviembre 2026",
+  "read": "7 min",
+  "title": "Lo que vive dentro de una esponja de cristal del Atlántico",
+  "excerpt": "16S rRNA y un metagenoma completo revelan el microbioma de Pheronema carpenteri, una esponja hexactinélida tradicionalmente considerada pobre en bacterias.",
+  "bites": [
+    "Pheronema carpenteri es una esponja hexactinélida (\"esponja de cristal\") que forma agregaciones densas en el Porcupine Seabight, Atlántico norte.",
+    "Su microbioma está dominado por Proteobacteria (47,1-59,4%) y Actinobacteria (11,5-27,5%), con estructura consistente entre agregaciones.",
+    "El metagenoma reveló genes del ciclo del nitrógeno (nirK, nosZ, nirS) y cuatro clústeres de genes biosintéticos completos."
+  ],
+  "body": [
+    "Las esponjas se dividen, a grandes rasgos, en dos categorías microbiológicas: las de alta abundancia microbiana (HMA), con microbiomas densos y diversos, y las de baja abundancia microbiana (LMA), con muy poca carga bacteriana. Las hexactinélidas o \"esponjas de cristal\", con su esqueleto silíceo característico, se clasifican tradicionalmente en el segundo grupo. Pheronema carpenteri, que forma agregaciones densas en el Porcupine Seabight del Atlántico norte, ya se había señalado antes como fuente prometedora de bacterias productoras de antibióticos.",
+    "Un equipo combinó secuenciación de nueva generación de genes 16S rRNA bacterianos con un metagenoma completo de una sola esponja, comparando muestras de P. carpenteri con agua y sedimento del entorno inmediato. El microbioma resultó dominado por Proteobacteria (47,1-59,4%) y Actinobacteria (11,5-27,5%), con una estructura comunitaria consistente dentro de cada agregación y comunidades intra-esponja bien definidas.",
+    "El análisis metagenómico reveló la presencia de genes del ciclo del nitrógeno —homólogos de nirK, nosZ y nirS, de origen proteobacteriano—, lo que sugiere que estas esponjas podrían tener un papel activo en el ciclo del nitrógeno local. En cuanto a potencial biosintético, se identificaron solo cuatro clústeres de genes biosintéticos completos, un número más bien limitado.",
+    "El dato más llamativo, sin embargo, es taxonómico: la estructura del microbioma de P. carpenteri se parece a la de esponjas HMA y LMA a la vez, lo que la sitúa fuera de la dicotomía clásica. Para un grupo, las hexactinélidas, tradicionalmente asumido como poco interesante microbiológicamente, encontrar especies que no encajan en el molde abre la puerta a integrarlas de forma más sistemática en estudios de biodescubrimiento marino."
+  ],
+  "ref": [
+    "Hesketh-Best, P. J., et al. (2026). A metagenomic exploration of the bacterial community composition of two deep-sea Pheronema carpenteri sponge aggregations from the North Atlantic; insights into ecosystem services. bioRxiv. https://consensus.app/papers/details/004e9917e72d51b193bd9004063da634"
+  ]
+},
+{
+  "slug": "extraccion-verde-macroalgas",
+  "cat": "biot",
+  "type": "tecnica",
+  "date": "06 diciembre 2026",
+  "read": "7 min",
+  "title": "Sacarle el jugo (bueno) a las algas sin disolventes tóxicos",
+  "excerpt": "Una revisión compara enzimas, microondas, ultrasonidos, fluidos supercríticos y disolventes eutécticos como alternativas verdes para extraer bioactivos de macroalgas.",
+  "bites": [
+    "Asia produce el 97% de las macroalgas cultivadas a nivel mundial, con China como principal productor.",
+    "Las macroalgas pardas son la fuente más rica tanto en florotaninos como en ácidos grasos poliinsaturados.",
+    "Las técnicas de extracción verde superan de forma consistente a los métodos convencionales en rendimiento, tiempo y sostenibilidad."
+  ],
+  "body": [
+    "Extraer un compuesto bioactivo de un alga no es solo cuestión de qué se extrae, sino de cómo. Los métodos clásicos de extracción con disolventes orgánicos funcionan, pero dejan residuos tóxicos, consumen mucha energía y, en compuestos termosensibles, pueden degradar justo lo que se quiere conservar. La \"extracción verde\" agrupa un conjunto de alternativas que buscan resolver ese problema sin sacrificar rendimiento.",
+    "Una revisión reciente recorre las macroalgas de los tres grandes grupos —Chlorophyta, Heterokontophyta y Rhodophyta— y su producción, muy concentrada geográficamente: Asia representa el 97% del total mundial, con China como productor dominante. Estas algas sintetizan un catálogo amplio de compuestos bioactivos: polisacáridos sulfatados, florotaninos, terpenoides, proteínas, péptidos, ácidos grasos poliinsaturados y pigmentos, con las algas pardas destacando como la fuente más rica tanto en florotaninos como en ácidos grasos poliinsaturados.",
+    "Para recuperar esos compuestos, la revisión compara extracción asistida por enzimas, por microondas, por ultrasonidos, con fluidos supercríticos y con disolventes eutécticos profundos naturales —mezclas de compuestos simples, como azúcares y ácidos orgánicos, que forman líquidos con propiedades disolventes sin ser tóxicos ni derivados del petróleo—. En conjunto, estos métodos superan de forma consistente a la extracción convencional en rendimiento, tiempo de proceso y sostenibilidad ambiental.",
+    "Los compuestos resultantes ya tienen aplicaciones documentadas —inmunomoduladoras, antiinflamatorias, antidiabéticas, neuroprotectoras, antitumorales y antivirales— en alimentación funcional, biomedicina, cosmética, agricultura y acuicultura. El cuello de botella que señalan los autores no es tanto encontrar el compuesto correcto como escalar estos protocolos de extracción verde a nivel industrial sin perder sus ventajas frente a los métodos convencionales."
+  ],
+  "ref": [
+    "Guan, Y., et al. (2026). Green extraction of bioactive compounds from marine macroalgae: chemistry, pharmacological activities, and biotechnological applications. Marine Drugs. https://consensus.app/papers/details/b7d48548b8c458c3acfa9c37382f1616"
+  ]
+},
+{
+  "slug": "docking-algas-tnf-alfa",
+  "cat": "quim",
+  "type": "tecnica",
+  "date": "12 diciembre 2026",
+  "read": "6 min",
+  "title": "Buscar un antiinflamatorio en el ordenador, con algas como materia prima",
+  "excerpt": "Cribado computacional de más de 2.000 moléculas de algas marinas identifica candidatos a inhibir el TNF-α, una citoquina central en la inflamación crónica.",
+  "bites": [
+    "El TNF-α es una citoquina proinflamatoria central en enfermedades como la enfermedad inflamatoria intestinal y la artritis reumatoide.",
+    "Se cribaron computacionalmente más de 2.000 moléculas de algas marinas mediante docking molecular dirigido a residuos clave del TNF-α.",
+    "El floridósido (alga roja) y el compuesto CHEMBL510230 (alga parda) destacaron como los candidatos con mejor perfil de interacción."
+  ],
+  "body": [
+    "Antes de sintetizar o purificar un solo miligramo de un compuesto candidato, la química computacional permite hacer una primera criba masiva en el ordenador: simular cómo encajaría una molécula en el sitio activo de una proteína diana y estimar, sin gastar un reactivo, si merece la pena seguir investigándola. Es exactamente el enfoque que se ha aplicado a la búsqueda de inhibidores del factor de necrosis tumoral alfa (TNF-α) entre metabolitos de algas marinas.",
+    "El TNF-α es una citoquina proinflamatoria central en la respuesta inmune, y también uno de los motores de enfermedades inflamatorias crónicas como la enfermedad inflamatoria intestinal y la artritis reumatoide. Un equipo filtró más de 2.000 moléculas de algas marinas procedentes de las bases de datos CMNPD y NPASS, seleccionando por reactividad y peso molecular, y las sometió a docking molecular dirigido a residuos clave del TNF-α, entre ellos Glu116, Pro117 y, sobre todo, Tyr119.",
+    "De ese cribado surgieron dos candidatos con perfiles especialmente prometedores: CHEMBL510230, procedente de algas pardas, y floridósido, un compuesto de algas rojas. Simulaciones de dinámica molecular y cálculos de energía libre de unión (MM/PBSA) mostraron que el floridósido tiene mayor afinidad de unión media, mientras que CHEMBL510230 establece una red más amplia de interacciones estables con la proteína.",
+    "Ninguno de los dos es todavía un fármaco, ni falta que hace decirlo: son resultados puramente computacionales que necesitan validación experimental in vitro e in vivo. Pero como ejercicio de cómo se reduce el espacio de búsqueda antes de tocar un tubo de ensayo, ilustra bien el papel creciente que la química computacional está teniendo en la bioprospección de compuestos marinos."
+  ],
+  "ref": [
+    "Ahmed, E. A., et al. (2026). Marine algal TNF-α inhibitors explored by comparative docking and molecular dynamics simulations. Computational Biology and Chemistry. https://consensus.app/papers/details/ed4d5f7efdc25fd1861e09fb86987fd9"
+  ]
+},
+{
+  "slug": "edna-genetica-poblacional",
+  "cat": "gen",
+  "type": "tecnica",
+  "date": "18 diciembre 2026",
+  "read": "8 min",
+  "title": "¿Puede un vaso de agua de mar sustituir la biopsia genética de una población?",
+  "excerpt": "El eDNA recupera bien la diversidad de haplotipos de vertebrados marinos hawaianos, pero se queda corto al estimar estructura poblacional fina.",
+  "bites": [
+    "El eDNA permite estudiar la genética de comunidades enteras sin capturar ni un solo individuo, algo imposible con el muestreo de tejido clásico.",
+    "En 18 especies de vertebrados marinos hawaianos, el eDNA recuperó de forma fiable los haplotipos dominantes y sus frecuencias relativas.",
+    "Las estimaciones de estructura poblacional a partir de eDNA correlacionaron solo débilmente con las obtenidas por muestreo de tejido tradicional."
+  ],
+  "body": [
+    "La genética poblacional clásica tiene un requisito incómodo: hace falta capturar, o al menos tomar tejido de, un número suficiente de individuos por población. Para especies raras, protegidas o simplemente difíciles de muestrear, eso limita mucho la cobertura geográfica y taxonómica. El ADN ambiental (eDNA) promete resolverlo capturando la mezcla genética de una comunidad entera a partir de una muestra de agua, pero traducir esa mezcla en estimaciones genéticas fiables no es trivial.",
+    "El reto técnico central es que el eDNA es una mezcla: contiene ADN mitocondrial de muchos individuos y muchas especies a la vez, y hay que separar de ahí genotipos y haplotipos individuales sin secuenciar cada organismo por separado. Esto es particularmente delicado en especies marinas con mucho flujo génico, donde la diferenciación genética suele expresarse como cambios sutiles en frecuencias alélicas más que como haplotipos exclusivos de una población.",
+    "Un equipo puso a prueba directamente la fiabilidad del eDNA frente al estándar de oro —muestreo de tejido individual— en 18 especies de vertebrados marinos hawaianos. El eDNA recuperó de forma consistente los haplotipos dominantes y sus frecuencias relativas, con una diversidad de secuencias que correlacionó significativamente con la obtenida por tejido. Donde el método flaqueó fue en las métricas de estructura poblacional: la correlación con el muestreo tradicional fue solo débil a esta escala espacial, porque el eDNA tendió a devolver valores de diferenciación genética (ΦST) más altos de lo esperado.",
+    "El balance no es ni un fracaso ni una validación completa: el eDNA convierte con éxito muestras mixtas complejas en estimaciones razonables de composición de haplotipos, lo que permite análisis comparativos de genética poblacional a escala de comunidad entera, algo impensable con muestreo individual. Pero cualquiera que quiera usarlo como sustituto directo de la genética poblacional clásica para inferir estructura fina debería leer primero la letra pequeña de sus límites actuales."
+  ],
+  "ref": [
+    "Ely, T., et al. (2026). Resolving emergent patterns in community genetics with environmental DNA. Molecular Ecology. https://consensus.app/papers/details/b37ba9bdf6c55afcb4ecf75a3dc84658"
+  ]
+},
+{
+  "slug": "ia-sonar-hidrotermal",
+  "cat": "ocea",
+  "type": "tecnica",
+  "date": "24 diciembre 2026",
+  "read": "6 min",
+  "title": "Una IA vigilando el sonar toda la noche para encontrar una fuente hidrotermal",
+  "excerpt": "Un modelo de detección de objetos aplicado a ecosondas multihaz automatiza la búsqueda de actividad hidrotermal, validado con el hallazgo real de un nuevo respiradero.",
+  "bites": [
+    "Las ecosondas multihaz (MBES) permiten detectar penachos hidrotermales en la columna de agua, pero requieren revisión manual de las imágenes.",
+    "Un modelo de detección de objetos basado en aprendizaje profundo analizó unas 25.000 imágenes de una campaña de 25 horas de duración.",
+    "Una de las áreas señaladas por el modelo se confirmó en el mar como un respiradero hidrotermal nuevo, mediante un vehículo operado a distancia."
+  ],
+  "body": [
+    "Localizar un respiradero hidrotermal activo en el fondo del mar sigue dependiendo, en buena medida, de que alguien mire con atención una pantalla durante horas. Las ecosondas multihaz (MBES) son eficaces detectando las plumas de burbujas y partículas que delatan actividad hidrotermal en la columna de agua, pero el volumen de imágenes que genera una campaña oceanográfica hace que la revisión manual, muchas veces nocturna, sea agotadora y propensa a que algo se escape.",
+    "Un equipo había propuesto previamente automatizar esa vigilancia mediante detección de objetos con aprendizaje profundo, y en este trabajo lo llevó a la práctica en una campaña real: un estudio con MBES en la caldera del monte submarino Higashi-Aogashima, cerca del arco de Izu-Bonin, en el Pacífico noroccidental. El modelo procesó cerca de 25.000 imágenes recogidas durante unas 25 horas de sondeo continuo.",
+    "El sistema señaló una zona con alta probabilidad de estar asociada a actividad hidrotermal. Lo relevante no es solo que lo hiciera —eso ya se había demostrado antes en simulación—, sino que en este caso el hallazgo se validó sobre el terreno: una campaña posterior con un vehículo operado a distancia (ROV) confirmó la presencia de un nuevo respiradero hidrotermal exactamente en esa zona.",
+    "Es un caso relativamente raro de un flujo de IA aplicado a exploración oceanográfica que se cierra con una validación de campo completa, no solo con métricas de precisión sobre datos históricos. Para una disciplina donde cada hora de barco cuesta miles de euros, automatizar la primera criba de \"dónde merece la pena mirar con más detalle\" tiene un valor muy directo, más allá de lo vistoso del titular."
+  ],
+  "ref": [
+    "Mimura, K., et al. (2026). Applying deep-learning-based sonar image analysis to exploration of hydrothermal activities. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing. https://consensus.app/papers/details/617d5f6260d65cbbaef417b61d53649b"
+  ]
+},
+{
+  "slug": "tecnicas-acuicultura-sostenible",
+  "cat": "acui",
+  "type": "tecnica",
+  "date": "30 diciembre 2026",
+  "read": "7 min",
+  "title": "Biofloc, RAS, IMTA: el vocabulario de la acuicultura que viene",
+  "excerpt": "Un repaso a las tecnologías que están redefiniendo la sostenibilidad de la acuicultura intensiva: biofloc, recirculación, acuaponía, IMTA y precisión digital.",
+  "bites": [
+    "La acuicultura es el sector de producción de alimento de crecimiento más rápido del mundo, con retos de agua, pienso y enfermedades.",
+    "Biofloc (BFT), sistemas de recirculación (RAS), acuaponía y acuicultura multitrófica integrada (IMTA) reducen consumo de agua y mejoran el control de residuos.",
+    "IoT, sensores y modelos de IA están habilitando la acuicultura de precisión, con monitorización en tiempo real y decisiones basadas en datos."
+  ],
+  "body": [
+    "La acuicultura tiene un problema de escala: es, con diferencia, el sector de producción de alimento que más rápido crece en el mundo, y ese crecimiento arrastra consigo escasez de agua, dependencia de recursos pesqueros para el pienso, brotes de enfermedades y degradación ambiental allá donde la intensificación no viene acompañada de tecnología adecuada.",
+    "Una revisión reciente hace balance de las principales respuestas tecnológicas a ese problema. La tecnología biofloc (BFT) recicla la materia orgánica del propio sistema de cultivo mediante comunidades microbianas que además sirven de alimento complementario; los sistemas de recirculación acuícola (RAS) reutilizan el agua tratándola en continuo, con un consumo mínimo comparado con los sistemas abiertos; la acuaponía integra cultivo de peces y de plantas en un mismo circuito; y la acuicultura multitrófica integrada (IMTA) combina especies de distintos niveles tróficos —peces, moluscos filtradores, algas— para que el residuo de unos sea el recurso de otros.",
+    "A ese catálogo de sistemas de cultivo se suma una capa digital: sensores IoT, automatización y modelos de inteligencia artificial que permiten monitorización en tiempo real de parámetros de agua y comportamiento animal, y toma de decisiones basada en datos en lugar de en calendario fijo, lo que la revisión engloba bajo el término acuicultura de precisión. En paralelo, avances en genética y biotecnología están mejorando la resistencia a enfermedades y el rendimiento productivo de los stocks cultivados.",
+    "El mensaje de fondo de la revisión, respaldado por casos de estudio globales, es que estas tecnologías no son piezas aisladas sino un mismo paquete: adoptarlas de forma combinada mejora rentabilidad y producción sin renunciar al equilibrio ecológico, y marca la dirección hacia la que se espera que evolucione el sector en los próximos años, combinando digitalización, energía renovable y principios de bioeconomía circular."
+  ],
+  "ref": [
+    "Ranjan, D., et al. (2026). Recent advancements in sustainable aquaculture: innovative techniques and future prospects. Frontiers in Aquaculture. https://consensus.app/papers/details/fe897c0651dd5c66a80a17ada2350be9"
+  ]
+}
+]
 }
