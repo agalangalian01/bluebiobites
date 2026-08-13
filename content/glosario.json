@@ -1,0 +1,15 @@
+{
+    "terminos": [
+          {
+                  "slug": "odontoforo",
+                  "termino": "Odontóforo",
+                  "cat": "bio",
+            "definicion": "Estructura muscular y cartilaginosa situada en la cavidad bucal de la mayoría de los moluscos (presente en gasterópodos, cefalópodos, poliplacóforos y escafópodos, pero ausente en bivalvos). Actúa como soporte y motor de la rádula, la cinta quitinosa cubierta de dentículos que estos animales usan para alimentarse: durante el ciclo de raspado, la musculatura odontoforal proyecta la rádula hacia delante contra el sustrato o la presa y luego la retrae, de modo que los dentículos rasgan, cortan o perforan el alimento como una cinta transportadora dentada. Es, en la práctica, el equivalente funcional de una lengua.",
+            "dato": "En los caracoles cono del género Conus, el odontóforo y la rádula se han modificado evolutivamente en un arpón hipodérmico capaz de inyectar veneno neurotóxico en milisegundos para capturar peces o gusanos poliquetos.",
+            "imagen": "assets/glosario/odontoforo.PNG",
+            "imagen_alt": "Corte esquemático de la cabeza de un gasterópodo mostrando el odontóforo, la rádula y la musculatura asociada en dos fases del ciclo de raspado.",
+            "referencia": "Krings, W., Faust, T., Kovalev, A., Neiber, M. T., Glaubrecht, M., & Gorb, S. (2019). In slow motion: Radula motion pattern and forces exerted to the substrate in the land snail Cornu aspersum (Mollusca, Gastropoda) during feeding. Royal Society Open Science, 6(7), 190222. https://doi.org/10.1098/rsos.190222",
+            "fecha": "14 agosto 2026"
+          }
+    ]
+}
