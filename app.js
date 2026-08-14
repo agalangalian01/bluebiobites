@@ -180,7 +180,7 @@
     if (!h) return {page: 'inicio', slug: null};
     const parts = h.split('/');
     if (parts[0] === 'articulo' && parts[1]) return {page: 'articulo', slug: decodeURIComponent(parts[1])};
-    if (['sobre', 'articulos', 'agenda', 'inicio'].indexOf(parts[0]) !== -1) return {page: parts[0], slug: null};
+    if (['sobre', 'articulos', 'agenda', 'inicio', 'glosario'].indexOf(parts[0]) !== -1) return {page: parts[0], slug: null};
     return {page: 'inicio', slug: null};
   }
 
@@ -683,12 +683,39 @@
               }
       }
 
+  function renderGlosario() {
+    const items = GLOSARIO.slice().sort((a,b) => a.termino.localeCompare(b.termino, 'es'));
+    return `
+      <main class="bbb-pad" style="max-width:1180px;margin:0 auto;padding-top:64px;padding-bottom:80px">
+        <div style="font-size:12px;letter-spacing:.2em;color:#17A398;margin-bottom:8px">glosario</div>
+        <h1 class="bbb-h1" style="margin:0 0 12px;font-size:38px;line-height:1.12;letter-spacing:-.03em;font-weight:500;color:#0B3D57">La palabra del día, coleccionada</h1>
+        <p style="margin:0 0 40px;max-width:62ch;font-size:17px;line-height:1.6;opacity:.78">Términos de biología y biotecnología marina explicados sin jerga, con una ilustración y una referencia científica cada uno.</p>
+        ${items.length ? items.map(t => {
+          const c = CATS[t.cat] || CATS.bio;
+          return `
+            <article style="display:grid;grid-template-columns:220px 1fr;gap:28px;align-items:start;border:1px solid #e2ddd2;border-radius:14px;padding:26px;margin-bottom:22px;background:#fff">
+              <div style="width:100%;height:220px;border-radius:10px;overflow:hidden;background:${c.bgLight};flex:none">
+                <img src="${ROOT_PREFIX}/${esc(t.imagen)}" alt="${esc(t.imagen_alt || t.termino)}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block">
+              </div>
+              <div>
+                <span style="display:inline-flex;align-items:center;gap:7px;border-radius:999px;padding:5px 13px 5px 5px;font-size:12.5px;background:${c.bgLight};color:${c.dark}"><span style="width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:12px;background:${c.accent}">${c.emoji}</span>${esc(c.name)}</span>
+                <h2 style="margin:14px 0 10px;font-size:26px;font-weight:500;color:#0B3D57;letter-spacing:-.02em">${esc(t.termino)}</h2>
+                <p style="margin:0;font-size:16px;line-height:1.7;color:#12293A;opacity:.88">${esc(t.definicion)}</p>
+                ${t.dato ? `<div style="margin-top:16px;border-left:3px solid ${c.accent};padding:10px 16px;background:${c.bgLight};border-radius:0 8px 8px 0"><div style="font-size:11px;letter-spacing:.14em;color:${c.dark};margin-bottom:4px">dato curioso</div><p style="margin:0;font-size:14.5px;line-height:1.55;color:#12293A;opacity:.85">${esc(t.dato)}</p></div>` : ''}
+                ${t.referencia ? `<p style="margin:16px 0 0;font-size:12.5px;line-height:1.5;color:#12293A;opacity:.55">${esc(t.referencia)}</p>` : ''}
+              </div>
+            </article>`;
+        }).join('') : `<p style="opacity:.6">Todavía no hay palabras en el glosario — vuelve pronto.</p>`}
+      </main>`;
+  }
+
   function renderMain() {
     switch (state.page) {
       case 'sobre': return renderSobre();
       case 'articulos': return renderArticulos();
       case 'articulo': return renderArticulo();
       case 'agenda': return renderAgenda();
+      case 'glosario': return renderGlosario();
       default: return renderInicio();
     }
   }
