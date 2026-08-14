@@ -218,6 +218,7 @@ $refHtml
 $sitemapUrls.Add("$SiteUrl/#/sobre")
 $sitemapUrls.Add("$SiteUrl/#/articulos")
 $sitemapUrls.Add("$SiteUrl/#/agenda")
+$sitemapUrls.Add("$SiteUrl/#/glosario")
 
 $urlEntries = ($sitemapUrls | ForEach-Object { "  <url><loc>$_</loc></url>" }) -join "`n"
 $sitemap = @"
