@@ -399,6 +399,9 @@
     const featured = deco(ARTICLES[0]);
     const secondary = ARTICLES.slice(1, 4).map(deco);
     const nextEvent = EVENTS.filter(e => e.upcoming)[0];
+    const _dayStart = new Date(new Date().getFullYear(), 0, 0);
+    const _dayOfYear = Math.floor((new Date() - _dayStart) / 86400000);
+    const wordOfDay = GLOSARIO.length ? GLOSARIO[_dayOfYear % GLOSARIO.length] : null;
 
     return `
 <main>
@@ -467,6 +470,24 @@
       <div style="flex:none;display:grid;place-items:center;padding:22px 30px;background:#F7F1E3"><span data-action="nav" data-page="agenda" role="button" tabindex="0" style="cursor:pointer;background:#F2665E;color:#fff;padding:13px 24px;border-radius:6px;font-size:14.5px;white-space:nowrap">Ver agenda</span></div>
     </div>
   </div>
+
+  ${wordOfDay ? `
+  <div style="background:#fff">
+    <div class="bbb-pad" style="max-width:1180px;margin:0 auto;padding-top:56px;padding-bottom:56px">
+      <h2 style="margin:0 0 6px;font-size:15px;letter-spacing:.16em;font-weight:500;color:#17A398">palabra del día</h2>
+      <p style="margin:0 0 24px;font-size:16px;color:#12293A;opacity:.7">Un término de biología o biotecnología marina, explicado sin jerga.</p>
+      <div data-action="nav" data-page="glosario" role="button" tabindex="0" style="cursor:pointer;display:grid;grid-template-columns:200px 1fr;gap:26px;align-items:center;border:1px solid #e2ddd2;border-radius:14px;padding:24px;background:#F7F1E3">
+        <div style="width:100%;height:160px;border-radius:10px;overflow:hidden;background:#fff;flex:none">
+          <img src="${ROOT_PREFIX}/${esc(wordOfDay.imagen)}" alt="${esc(wordOfDay.imagen_alt || wordOfDay.termino)}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block">
+        </div>
+        <div>
+          <h3 style="margin:0 0 8px;font-size:24px;font-weight:500;color:#0B3D57;letter-spacing:-.02em">${esc(wordOfDay.termino)}</h3>
+          <p style="margin:0;font-size:15.5px;line-height:1.6;color:#12293A;opacity:.85">${esc(wordOfDay.definicion.length > 180 ? wordOfDay.definicion.slice(0,180) + '…' : wordOfDay.definicion)}</p>
+          <span style="display:inline-block;margin-top:14px;font-size:13.5px;color:#17A398;font-weight:600">Ver glosario completo →</span>
+        </div>
+      </div>
+    </div>
+  </div>` : ''}
 
   <div style="background:#F7F1E3">
     <div class="bbb-pad" style="max-width:1180px;margin:0 auto;padding-top:58px;padding-bottom:64px">
@@ -869,17 +890,19 @@
   /* ---------------------------------------------------------------- */
 
   async function loadContent() {
-    const [articulosRes, bioRes, agendaRes] = await Promise.all([
+    const [articulosRes, bioRes, agendaRes, glosarioRes] = await Promise.all([
       fetch(ROOT_PREFIX + '/content/articulos.json'),
       fetch(ROOT_PREFIX + '/content/sobre-mi.json'),
-      fetch(ROOT_PREFIX + '/content/agenda.json')
+      fetch(ROOT_PREFIX + '/content/agenda.json'),
+      fetch(ROOT_PREFIX + '/content/glosario.json')
     ]);
-    const [articulosData, bioData, agendaData] = await Promise.all([
-      articulosRes.json(), bioRes.json(), agendaRes.json()
+    const [articulosData, bioData, agendaData, glosarioData] = await Promise.all([
+      articulosRes.json(), bioRes.json(), agendaRes.json(), glosarioRes.json()
     ]);
     ARTICLES = articulosData.articulos;
     BIO = bioData.parrafos;
     EVENTS = agendaData.eventos;
+    GLOSARIO = glosarioData.terminos;
   }
 
   async function init() {
