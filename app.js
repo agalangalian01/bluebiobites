@@ -54,8 +54,9 @@
   let BIO = [];
 
   let EVENTS = [];
+  let GLOSARIO = [];
 
-  const NAV_ITEMS = [['inicio','Inicio'],['sobre','Sobre mí'],['articulos','Artículos'],['agenda','Agenda']];
+  const NAV_ITEMS = [['inicio','Inicio'],['sobre','Sobre mí'],['articulos','Artículos'],['agenda','Agenda'],['glosario','Glosario']];
   const PER_PAGE = 6;
 
   /* ---------------------------------------------------------------- */
@@ -222,6 +223,7 @@
       case 'articulos': return 'Artículos — BlueBioBites';
       case 'articulo': return currentArticle().title + ' — BlueBioBites';
       case 'agenda': return 'Agenda — BlueBioBites';
+      case 'glosario': return 'Glosario — BlueBioBites';
       default: return 'BlueBioBites — El mar, explicado a bocados';
     }
   }
@@ -232,6 +234,7 @@
       case 'articulos': return 'Artículos de biología, ecología, microbiología, biotecnología, química, genética, oceanografía y acuicultura marina.';
       case 'articulo': return currentArticle().excerpt;
       case 'agenda': return 'Charlas, congresos y talleres sobre ciencia marina en Alicante, Elche, Murcia y alrededores.';
+      case 'glosario': return 'Glosario ilustrado de términos de biología y biotecnología marina, explicados con rigor y sin jerga.';
       default: return 'Ciencias marinas contadas con el rigor del laboratorio y sin la jerga que sobra, por Alejandro Galán.';
     }
   }
