@@ -64,7 +64,7 @@
   /* ---------------------------------------------------------------- */
 
   const state = {
-    page: 'inicio', slug: null, cats: [], types: [], query: '', pageNum: 1, agendaType: null, agendaView: 'list',
+    page: 'inicio', slug: null, cats: [], types: [], query: '', pageNum: 1, agendaType: null, agendaView: 'list', lightboxImage: null,
     searchOpen: false, menuOpen: false, draft: '', email: '', subscribed: false,
     comments: {},
     commentName: '', commentEmail: '', replyingTo: null,
@@ -478,7 +478,7 @@
       <p style="margin:0 0 24px;font-size:16px;color:#12293A;opacity:.7">Un término de biología o biotecnología marina, explicado sin jerga.</p>
       <div data-action="nav" data-page="glosario" role="button" tabindex="0" style="cursor:pointer;display:grid;grid-template-columns:200px 1fr;gap:26px;align-items:center;border:1px solid #e2ddd2;border-radius:14px;padding:24px;background:#F7F1E3">
         <div style="width:100%;height:160px;border-radius:10px;overflow:hidden;background:#fff;flex:none">
-          <img src="${ROOT_PREFIX}/${esc(wordOfDay.imagen)}" alt="${esc(wordOfDay.imagen_alt || wordOfDay.termino)}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block">
+          <img src="${ROOT_PREFIX}/${esc(wordOfDay.imagen)}" alt="${esc(wordOfDay.imagen_alt || wordOfDay.termino)}" loading="lazy" data-action="zoom-image" data-src="${ROOT_PREFIX}/${esc(wordOfDay.imagen)}" data-alt="${esc(wordOfDay.imagen_alt || wordOfDay.termino)}" style="width:100%;height:100%;object-fit:cover;display:block;cursor:zoom-in">
         </div>
         <div>
           <h3 style="margin:0 0 8px;font-size:24px;font-weight:500;color:#0B3D57;letter-spacing:-.02em">${esc(wordOfDay.termino)}</h3>
@@ -710,13 +710,13 @@
       <main class="bbb-pad" style="max-width:1180px;margin:0 auto;padding-top:64px;padding-bottom:80px">
         <div style="font-size:12px;letter-spacing:.2em;color:#17A398;margin-bottom:8px">glosario</div>
         <h1 class="bbb-h1" style="margin:0 0 12px;font-size:38px;line-height:1.12;letter-spacing:-.03em;font-weight:500;color:#0B3D57">La palabra del día, coleccionada</h1>
-        <p style="margin:0 0 40px;max-width:62ch;font-size:17px;line-height:1.6;opacity:.78">Términos de biología y biotecnología marina explicados sin jerga, con una ilustración y una referencia científica cada uno.</p>
+        <p style="margin:0 0 40px;max-width:62ch;font-size:17px;line-height:1.6;opacity:.78">Términos de biología y biotecnología marina explicados sin jerga.</p>
         ${items.length ? items.map(t => {
           const c = CATS[t.cat] || CATS.bio;
           return `
             <article style="display:grid;grid-template-columns:220px 1fr;gap:28px;align-items:start;border:1px solid #e2ddd2;border-radius:14px;padding:26px;margin-bottom:22px;background:#fff">
               <div style="width:100%;height:220px;border-radius:10px;overflow:hidden;background:${c.bgLight};flex:none">
-                <img src="${ROOT_PREFIX}/${esc(t.imagen)}" alt="${esc(t.imagen_alt || t.termino)}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block">
+                <img src="${ROOT_PREFIX}/${esc(t.imagen)}" alt="${esc(t.imagen_alt || t.termino)}" loading="lazy" data-action="zoom-image" data-src="${ROOT_PREFIX}/${esc(t.imagen)}" data-alt="${esc(t.imagen_alt || t.termino)}" style="width:100%;height:100%;object-fit:cover;display:block;cursor:zoom-in">
               </div>
               <div>
                 <span style="display:inline-flex;align-items:center;gap:7px;border-radius:999px;padding:5px 13px 5px 5px;font-size:12.5px;background:${c.bgLight};color:${c.dark}"><span style="width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:12px;background:${c.accent}">${c.emoji}</span>${esc(c.name)}</span>
@@ -745,6 +745,15 @@
   /* Render root + focus preservation                                 */
   /* ---------------------------------------------------------------- */
 
+  function renderLightbox() {
+    if (!state.lightboxImage) return '';
+    return `
+      <div data-action="close-lightbox" style="position:fixed;inset:0;background:rgba(8,41,63,.92);z-index:9999;display:flex;align-items:center;justify-content:center;padding:32px;cursor:zoom-out">
+        <img src="${esc(state.lightboxImage.src)}" alt="${esc(state.lightboxImage.alt)}" style="max-width:100%;max-height:100%;border-radius:8px;box-shadow:0 20px 60px rgba(0,0,0,.5);cursor:auto">
+        <span data-action="close-lightbox" role="button" tabindex="0" style="position:absolute;top:24px;right:28px;color:#fff;font-size:34px;line-height:1;cursor:pointer;opacity:.85">&times;</span>
+      </div>`;
+  }
+
   function render() {
     document.title = pageTitle();
     setMeta('description', pageDescription());
@@ -753,7 +762,7 @@
     setMeta('twitter:title', pageTitle());
     setMeta('twitter:description', pageDescription());
     const root = document.getElementById('app');
-    root.innerHTML = renderHeader() + renderMain() + renderFooter(); initAgendaMap();
+    root.innerHTML = renderHeader() + renderMain() + renderFooter() + renderLightbox(); initAgendaMap();
   }
 
   function renderPreserveFocus() {
@@ -794,6 +803,8 @@
     if (!el) return;
     const action = el.dataset.action;
     if (action === 'agenda-view') { state.agendaView = el.dataset.view; render(); return; } if (action === 'agenda-filter') { state.agendaType = (state.agendaType === el.dataset.type ? null : el.dataset.type); render(); return; } if (action === 'agenda-clear') { state.agendaType = null; render(); return; } if (action === 'nav') { go(el.dataset.page); return; }
+    if (action === 'zoom-image') { state.lightboxImage = {src: el.dataset.src, alt: el.dataset.alt || ''}; render(); return; }
+    if (action === 'close-lightbox') { state.lightboxImage = null; render(); return; }
     if (action === 'open-article') { go('articulo', {slug: el.dataset.slug}); return; }
     if (action === 'toggle-search') { state.searchOpen = !state.searchOpen; render(); return; }
     if (action === 'toggle-menu') { state.menuOpen = !state.menuOpen; render(); return; }
